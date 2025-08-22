@@ -2,12 +2,12 @@ site_name: Extractional Documentation
 
 theme:
   name: material
-  favicon: img/favicon.ico
-  logo: img/favicon.ico
+  favicon: img/icon_transparent.png
+  logo: img/icon_transparent.png
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    - toc.follow
     - navigation.top
     - search.suggest
     - search.highlight
@@ -16,26 +16,37 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: blue
-      accent: cyan 
-    - scheme: slate 
+      primary: custom
+      accent: cyan
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate 
       toggle:
         icon: material/brightness-4
         name: Switch to light mode    
-      primary: blue
+      primary: custom
       accent: cyan
 
 plugins:
   - glightbox
+  - search
 #   - social
 #   - search
 
-# extra:
-#   social:
+extra:
+  social:
+    - icon: fontawesome/regular/clone
+      link: https://extractional.com
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@Extractional
 #     - icon: fontawesome/brands/github-alt
 #       link: https://github.com/james-willett
 #     - icon: fontawesome/brands/twitter
@@ -50,6 +61,25 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+nav:
+  - Home: index.md
+
+  - Introduction: System Overview and User Management
+
+  - System Overview:
+    - Home: System Overview/index.md
+    - Dashboard: System Overview/Dashboard.md
+extra_css:
+  - stylesheets/extra.css
 # markdown_extensions:
 #   - pymdownx.highlight:
 #       anchor_linenums: true
