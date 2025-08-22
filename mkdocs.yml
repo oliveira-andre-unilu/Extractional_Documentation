@@ -38,6 +38,12 @@ theme:
 plugins:
   - glightbox
   - search
+  - with-pdf:
+      palette: custom
+      output_path: pdf/manual.pdf
+      cover_title: My Software Manual
+      cover_subtitle: Version 1.0
+      author: Andre Martins
 #   - social
 #   - search
 
