@@ -45,7 +45,6 @@ plugins:
       cover_subtitle: Version 1.0
       author: Andre Martins
 #   - social
-#   - search
 
 extra:
   social:
@@ -53,12 +52,6 @@ extra:
       link: https://extractional.com
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@Extractional
-#     - icon: fontawesome/brands/github-alt
-#       link: https://github.com/james-willett
-#     - icon: fontawesome/brands/twitter
-#       link: https://twitter.com/TheJamesWillett
-#     - icon: fontawesome/brands/linkedin
-#       link: https://www.linkedin.com/in/willettjames/
 
 markdown_extensions:
   - attr_list
@@ -84,6 +77,7 @@ nav:
   - System Overview:
     - Home: System Overview/index.md
     - Dashboard: System Overview/Dashboard.md
+    - Template: System Overview/Template.md
 extra_css:
   - stylesheets/extra.css
 # markdown_extensions:
