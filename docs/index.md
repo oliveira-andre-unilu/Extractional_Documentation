@@ -25,3 +25,7 @@ Extract and digitalize data with Extractional
 - :material-file-document: **Templates**  
   Customize and use templates effectively.  
   [:octicons-arrow-right-24: Read more](System%20Overview/Template.md)
+
+- :material-family-tree: **Multi tenant**  
+    Divide your system into different sub-systems.  
+    [:octicons-arrow-right-24: Read more](Multi%20tenant%20system/index.md)
