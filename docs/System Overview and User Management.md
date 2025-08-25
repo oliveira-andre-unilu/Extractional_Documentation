@@ -53,8 +53,8 @@ the usage of one of the most used format for these type of documents.
 
 #### Direct email account connection
 
-![image](img/Icons_and_more/email-icon-black.png#only-light){width="50" align=left}
-![image](img/Icons_and_more/email.png#only-dark){width="50" align=left}
+<!-- ![image](img/Icons_and_more/email-icon-black.png#only-light){width="50" align=left} -->
+![image](img/Icons_and_more/email.png){width="50" align=left}
 
 This software will automatically insert all incoming billing documents
 in the system by directly connecting to a e-mail address. This is done
@@ -93,8 +93,8 @@ it*](img/Screenshots/Validation/Document_with_flags.png){width="600"}
 
 #### Improving file searching
 
-![image](img/Icons_and_more/File_search_icon.png#only-light){width="50" align=left}
-![image](img/Icons_and_more/search.png#only-dark){width="50" align=left}
+<!-- ![image](img/Icons_and_more/File_search_icon.png#only-light){width="50" align=left} -->
+![image](img/Icons_and_more/search.png){width="50" align=left}
 
 Since our system relies on a numerical file storage system and features
 quick file searching algorithms and filtering algorithm , it will
@@ -105,8 +105,8 @@ specific document like the old days.
 
 #### Reducing paper usage in your company
 
-![image](img/Icons_and_more/Papperless_icon_black.png#only-light){width="50" align=left}
-![image](img/Icons_and_more/paperless.png#only-dark){width="50" align=left}
+<!-- ![image](img/Icons_and_more/Papperless_icon_black.png#only-light){width="50" align=left} -->
+![image](img/Icons_and_more/paperless.png){width="50" align=left}
 
 Automating document handling with our system significantly reduces paper
 usage. Since there is no longer a need to print documents for

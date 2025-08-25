@@ -7,7 +7,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.follow
+    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -44,6 +44,10 @@ plugins:
       cover_title: My Software Manual
       cover_subtitle: Version 1.0
       author: Andre Martins
+      toc_title: Table of Contents
+      # Define which docs to include and in what order
+      exclude:
+        - index.md
 #   - social
 
 extra:
@@ -72,12 +76,16 @@ markdown_extensions:
 nav:
   - Home: index.md
 
-  - Introduction: System Overview and User Management
+  - Introduction: System Overview and User Management.md
 
   - System Overview:
     - Home: System Overview/index.md
     - Dashboard: System Overview/Dashboard.md
     - Template: System Overview/Template.md
+
+  - Multi tenant system:
+    - Home: Multi tenant system/index.md
+    - Setting up the system: Multi tenant system/Setting up the system.md
 extra_css:
   - stylesheets/extra.css
 # markdown_extensions:
