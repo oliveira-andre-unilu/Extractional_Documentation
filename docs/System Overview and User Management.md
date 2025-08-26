@@ -1,3 +1,7 @@
+---
+pdf: true
+---
+
 This chapter provides an overview of the system and outlines its main
 components and functionalities. It explains how responsibilities are
 distributed among different user roles, highlights key safety and access

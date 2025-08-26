@@ -1,3 +1,7 @@
+---
+pdf: true
+---
+
 # Dashboard
 
 ## What is the main purpose of the this page

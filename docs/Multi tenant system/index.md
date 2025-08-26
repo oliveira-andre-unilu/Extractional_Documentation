@@ -1,3 +1,7 @@
+---
+pdf: true
+---
+
 # Configuring the System for Multi-Organization Support
 
 In this part of the manual, we will explain how to configure your system to have several sub-organisations within the same system.

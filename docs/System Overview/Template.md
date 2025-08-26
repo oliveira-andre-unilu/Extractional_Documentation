@@ -1,3 +1,7 @@
+---
+pdf: true
+---
+
 ## Template
 
 ### What is this main purpose

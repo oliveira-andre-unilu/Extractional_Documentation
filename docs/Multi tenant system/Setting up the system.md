@@ -1,3 +1,8 @@
+---
+pdf: true
+title: Test
+---
+
 # Setting up the system
 
 In this part, you will learn how to set up the system as well as how to define each user(s) for each one of the tenants as we call it.

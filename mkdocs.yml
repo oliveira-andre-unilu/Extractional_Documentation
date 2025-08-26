@@ -38,16 +38,45 @@ theme:
 plugins:
   - glightbox
   - search
-  - with-pdf:
-      palette: custom
-      output_path: pdf/manual.pdf
-      cover_title: My Software Manual
-      cover_subtitle: Version 1.0
-      author: Andre Martins
-      toc_title: Table of Contents
-      # Define which docs to include and in what order
-      exclude:
-        - index.md
+  - exporter:
+      logging:
+            level: debug
+      formats:
+        pdf:
+          enabled: !ENV [MKDOCS_EXPORTER_PDF, true]
+          concurrency: 16
+          stylesheets:
+            - resources/stylesheets/pdf.scss
+          covers:
+            front: resources/templates/covers/front.html.j2
+            # back: resources/templates/covers/front.html.j2
+          browser:
+            debug: false
+          aggregator:
+            enabled: !ENV [MKDOCS_EXPORTER_PDF_AGGREGATOR, true]
+            output: documentation.pdf
+            covers: front
+      buttons:
+        - title: View as PDF
+          icon: material-file-move-outline
+          enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
+          attributes:
+            target: _blank
+            href: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.href
+        - title: Download as PDF
+          icon: material-file-download-outline
+          enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
+          attributes: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.attributes
+  # - with-pdf:
+  #     palette: custom
+  #     output_path: pdf/manual.pdf
+  #     cover_title: My Software Manual
+  #     cover_subtitle: Version 1.0
+  #     author: Andre Martins
+  #     toc_title: Table of Contents
+  #     # Define which docs to include and in what order
+  #     exclude:
+  #       - index.md
 #   - social
 
 extra:

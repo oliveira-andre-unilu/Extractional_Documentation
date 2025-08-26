@@ -1,3 +1,8 @@
+---
+pdf: false
+---
+
+
 # Welcome to the Extractional user manual
 
 
@@ -29,3 +34,10 @@ Extract and digitalize data with Extractional
 - :material-family-tree: **Multi tenant**  
     Divide your system into different sub-systems.  
     [:octicons-arrow-right-24: Read more](Multi%20tenant%20system/index.md)
+
+</div>
+
+
+## Documentation in paper
+
+- [__Read__ this documentation in the PDF format](../documentation.pdf)
