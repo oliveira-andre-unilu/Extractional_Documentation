@@ -22,4 +22,5 @@ jobs:
       - run: pip install pillow cairosvg
       - run: pip install mkdocs-glightbox
       - run: pip install mkdocs-with-pdf
+      - run: pip install mkdocs-exporter
       - run: mkdocs gh-deploy --force
