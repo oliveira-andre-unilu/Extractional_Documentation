@@ -24,4 +24,5 @@ jobs:
       - run: pip install mkdocs-with-pdf
       - run: pip install mkdocs-exporter
       - run: playwright install
+      - run: pip install mkdocs-macros-plugin
       - run: mkdocs gh-deploy --force
