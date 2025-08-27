@@ -55,7 +55,7 @@ plugins:
           browser:
             debug: false
           aggregator:
-            enabled: !ENV [MKDOCS_EXPORTER_PDF_AGGREGATOR, true]
+            enabled: true
             output: documentation.pdf
             covers: front
       buttons:
