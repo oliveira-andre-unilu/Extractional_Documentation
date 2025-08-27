@@ -40,4 +40,4 @@ Extract and digitalize data with Extractional
 
 ## Documentation in paper
 
-- [__Read__ this documentation in the PDF format](../documentation.pdf)
+- [__Read__ this documentation in the PDF format](./documentation.pdf)
