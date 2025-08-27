@@ -38,6 +38,8 @@ theme:
 plugins:
   - glightbox
   - search
+  - macros:
+      include_dir: docs/assets
   - exporter:
       logging:
             level: debug

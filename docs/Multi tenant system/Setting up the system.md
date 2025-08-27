@@ -1,6 +1,5 @@
 ---
 pdf: true
-title: Test
 ---
 
 # Setting up the system

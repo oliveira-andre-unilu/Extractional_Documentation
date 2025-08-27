@@ -14,7 +14,7 @@ main functionalities of the system.
     manual might not be available to you; this will directly depend on the
     rights that you have in the system.
 
-## General principles {#general-principles .unnumbered}
+## General principles
 
 ### General navigation principles for all tables
 
