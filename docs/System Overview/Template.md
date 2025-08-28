@@ -34,6 +34,14 @@ the [*"this"*](#Settings_user_roles) link.
 In this part, you shall find a step-by-step guide on how to add a new
 template to your system.
 
+<div class=no-pdf>
+
+<b>Video tutorial on how to add a new template</b>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BHS_hmTIIxM?si=uQbaBNf9Nhew9ylP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
 ##### Triggering the system 
 
 To trigger the system, it is as simple as clicking on the `"New

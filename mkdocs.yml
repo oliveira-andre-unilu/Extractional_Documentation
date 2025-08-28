@@ -115,6 +115,7 @@ nav:
     - Dashboard: System Overview/Dashboard.md
     - Template: System Overview/Template.md
     - Validations: System Overview/Validations.md
+    - Tools: System Overview/Tools.md
 
   - Multi tenant system:
     - Home: Multi tenant system/index.md
