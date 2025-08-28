@@ -2,6 +2,7 @@ site_name: Extractional Documentation
 
 theme:
   name: material
+  custom_dir: overrides
   favicon: img/icon_transparent.png
   logo: img/icon_transparent.png
   features:

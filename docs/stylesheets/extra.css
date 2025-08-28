@@ -3,3 +3,16 @@
   --md-primary-fg-color--light: #028bee;
   --md-primary-fg-color--dark:  #013256;
 }
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  text-decoration: none;
+  font-size: 0.5rem;
+  font-weight: 500;
+  color: inherit;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}
