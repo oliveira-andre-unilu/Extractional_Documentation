@@ -27,7 +27,7 @@ the [*"this"*](#Settings_user_roles) link.
 
 ![image](../img/Screenshots/Template/overview.png){width="1000"}
 
-### Functionalities overview {#creating_new_template}
+### Functionalities overview
 
 #### Adding a new template
 

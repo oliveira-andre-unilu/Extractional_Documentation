@@ -113,6 +113,7 @@ nav:
     - Home: System Overview/index.md
     - Dashboard: System Overview/Dashboard.md
     - Template: System Overview/Template.md
+    - Validations: System Overview/Validations.md
 
   - Multi tenant system:
     - Home: Multi tenant system/index.md
