@@ -41,16 +41,25 @@ The first thing that shall be already defined in the system is having
 created all the desired templates, since otherwise the user cannot
 profit from the advantages of Extractional.
 
-::: impBox
-In addition, we also highly recommend defining all roles before allowing
-validation in the system. This will allow you to control who are the
-people who shall have the control to validate documents in your
-system/company.
-:::
+!!! warning "Important"
+    In addition, we also highly recommend defining all roles before allowing
+    validation in the system. This will allow you to control who are the
+    people who shall have the control to validate documents in your
+    system/company.
+
 
 ## Overview
 
 ![image](../img/Screenshots/Validation/Overview.png){width="1000"}
+
+<div class="no-pdf">
+
+<h2>Video tutorial</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PiAbmcPj8pI?si=a9wZEGUaj3iRwUvl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
 
 ## Main functionalities overview
 

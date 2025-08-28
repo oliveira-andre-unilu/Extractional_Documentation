@@ -16,3 +16,9 @@
 .footer-link:hover {
   text-decoration: underline;
 }
+
+@media print {
+  .no-pdf{
+    display: none !important;
+  }
+}
