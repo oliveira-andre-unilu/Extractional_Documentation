@@ -28,9 +28,13 @@ parallel to the rest of the system.
 
 <h2>Video tutorials</h2>
 
-<p>The following video gives a thorough explanation on how all the <b>pdf related tools</b> work.</p>
+<p>The following video gives a thorough explanation on how all the <b>pdf related tools</b> work.<br></p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EK_Xz3HMQVc?si=CvtiU0tkcJNEol1v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>The following video gives a thorough explanation on how all the <b>Peppol related tools</b> work.<br></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vcxxKoZMu04?si=lH__kUp4QM5kL_jy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
