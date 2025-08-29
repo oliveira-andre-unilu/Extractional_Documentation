@@ -5,8 +5,11 @@
 }
 
 .footer-link {
-  display: inline-flex;
+  display: inline-grid;
+  place-items: center;
+  margin: 15px 10px 10px 15px;
   align-items: center;
+  align-self: center;
   gap: 0.5em;
   text-decoration: none;
   font-size: 0.5rem;
@@ -15,6 +18,9 @@
 }
 .footer-link:hover {
   text-decoration: underline;
+  background-color: #013256;
+  border-radius: 5px;
+
 }
 
 @media print {
