@@ -1,7 +1,12 @@
 ---
 pdf: false
+
+hide:
+  - navigation
+  - toc
 ---
 
+<!-- <div class="hero-landing" markdown="1"> -->
 
 # Welcome to the Extractional user manual
 

@@ -4,6 +4,29 @@
   --md-primary-fg-color--dark:  #013256;
 }
 
+.hero-landing {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  /* Edge-to-edge within the content area */
+  margin: 0;
+  padding: 6rem 1rem;
+
+  background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+              url("../img/bg-main-page.jpg") center / cover no-repeat;
+
+  color: #fff;
+}
+
+.hero-landing h1,
+.hero-landing p {
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,.6);
+}
+
+
 .footer-link {
   display: inline-grid;
   place-items: center;
@@ -18,7 +41,7 @@
 }
 .footer-link:hover {
   text-decoration: underline;
-  background-color: #013256;
+  background-color: rgba(209,210,210,0.15);
   border-radius: 5px;
 
 }
@@ -28,3 +51,12 @@
     display: none !important;
   }
 }
+
+/* Target admonition of type tip */
+/* .md-typeset .admonition.tip > .admonition-title::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f0eb";
+  display: inline-block;
+  margin-right: 0.5em;
+} */

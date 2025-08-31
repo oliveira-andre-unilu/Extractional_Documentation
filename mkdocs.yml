@@ -97,6 +97,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
   - footnotes
   - pymdownx.details
   - pymdownx.superfences
@@ -116,6 +118,13 @@ nav:
     - Template: System Overview/Template.md
     - Validations: System Overview/Validations.md
     - Tools: System Overview/Tools.md
+    - Users: System Overview/Users.md
+    - Settings: System Overview/Settings.md
+  
+  - Peppol:
+    - Home: Peppol/Introduction.md
+    - Prerequisites: Peppol/Prerequisites.md
+    - Documentation with Peppol: Peppol/Documentation_with_Peppol.md
 
   - Multi tenant system:
     - Home: Multi tenant system/index.md
