@@ -125,6 +125,7 @@ nav:
     - Home: Peppol/Introduction.md
     - Prerequisites: Peppol/Prerequisites.md
     - Documentation with Peppol: Peppol/Documentation_with_Peppol.md
+    - Tools with Peppol: Peppol/Tools_with_Peppol.md
 
   - Multi tenant system:
     - Home: Multi tenant system/index.md

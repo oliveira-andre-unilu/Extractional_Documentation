@@ -60,3 +60,23 @@
   display: inline-block;
   margin-right: 0.5em;
 } */
+
+/* new try */
+/* Hero section from the template */
+.mdx-hero {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+
+  background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+              url("../img/new-bg.jpg") center / cover no-repeat;
+}
+
+.mdx-hero h1,
+.mdx-hero p {
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,.6);
+}
+

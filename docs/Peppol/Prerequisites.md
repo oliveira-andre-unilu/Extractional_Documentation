@@ -41,7 +41,7 @@ like to realize your payments in the system.
 
 To do so, you shall need to add all of your accounts in the Settings
 page. For more specific information, please go to the [Company
-Data](#Company_accounts) section in the previous chapter of this manual,
+Data](../System%20Overview/Settings.md#Company-Data) section in the previous chapter of this manual,
 where you can find a detailed guide on how to add an account in your
 system.
 

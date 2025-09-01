@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <section class="mdx-container">
+    <div class="mdx-hero">
+      <div class="mdx-hero__content">
+        <img src="{{ base_url }}/img/icon_transparent.png">
+        <h1>Extractional Documentation</h1>
+        <p>Extract and digitalize data with Extractional</p>
+        <a class="md-button md-button--primary" href="{{ base_url }}/getting-started/">Get started</a>
+      </div>
+    </div>
+  </section>
+  {{ super() }}
+{% endblock %}

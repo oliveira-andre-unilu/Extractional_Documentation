@@ -31,7 +31,7 @@ tables and visualizations available for use.
 To modify the time period, click the current time period text box
 located at the top of the screen and adjust it according to your
 preferences. For more detailed information on how to change the time
-period, please refer to the [(following link)](#changing_timetable),
+period, please refer to the [(following link)](Validations.md#Changing-timetable),
 which will redirect you to the relevant section of this manual where the
 time period submenu is explained in greater detail.
 

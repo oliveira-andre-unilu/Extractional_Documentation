@@ -916,7 +916,7 @@ In this section you will be able to learn how to use this page.
 
     **Where to find the API key**
 
-    In order to create a new API key you will need to create an account at the currencyfreaks [website](currencyfreaks.com) and and choose the plan that you would like to use (typically th free plan shall be more than enough for your needs).
+    In order to create a new API key you will need to create an account at the currencyfreaks [website](https://currencyfreaks.com) and and choose the plan that you would like to use (typically th free plan shall be more than enough for your needs).
 
     Once the account is prepared, you will be able to generate API keys.
 
