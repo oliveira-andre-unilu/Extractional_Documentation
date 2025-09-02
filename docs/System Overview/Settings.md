@@ -16,6 +16,36 @@ each subpage into it's own section in our user manual.
 
 ![image](../img/Screenshots/Settings/Settings_overview_updated.png){width="750"}
 
+<div class="no-pdf">
+
+<h2>Video tutorials</h2>
+
+<h3>Configuring your outgoing e-mails</h3>
+
+<div class = "responsive-video">
+
+<iframe src="https://www.youtube.com/embed/kAnn2yW7CWw?si=tt-yfJh97ZgbK2Yk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<h3>Establishing an IMAP connection</h3>
+
+<div class = "responsive-video">
+
+<iframe src="https://www.youtube.com/embed/GMifEmqwnOQ?si=8tJTT6ioCe8wVN_L" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<h3>Document Settings</h3>
+
+<div class = "responsive-video">
+
+<iframe src="https://www.youtube.com/embed/Iog6QD7HkVY?si=BoiuSlBotyxOtU5P" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
 ---
 
 ## License

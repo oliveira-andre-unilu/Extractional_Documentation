@@ -64,3 +64,25 @@ number of features. These features will include:
     their respoective format.
 
 </div>
+
+<div class="no-pdf">
+
+<h2>Video Tutorials</h2>
+
+<h3>Templates and validations<h3>
+
+<div class = "responsive-video">
+
+<iframe src="https://www.youtube.com/embed/lNJGSv49YfE?si=FzSBlISekvQkyVie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<h3>Using a Peppol XML invoice in MyGuichet</h3>
+
+<div class = "responsive-video">
+
+<iframe src="https://www.youtube.com/embed/UT8Y1BuAfcg?si=xDGsZVIdCWX7u1S-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+</div>
