@@ -12,7 +12,7 @@ system to automatically extract all the information from each element of
 each document.
 
 You will start by creating a new template as usual; a more in-depth
-guide can be found on the [previous chapter](../System%20Overview/Template.md#Adding-a-new-template)
+guide can be found on the [previous chapter](../System%20Overview/Template.md#adding-a-new-template)
 about creating a new template.
 
 Once you have created this new template and added all the fields as

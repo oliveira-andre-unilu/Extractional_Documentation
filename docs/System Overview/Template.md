@@ -21,7 +21,7 @@ collection in the Document section. You can find more information in the
 \"Some link\" settings tab.\
 In addition, it is also recommended to define the type of user who has
 the permission to create or manage the application. More information in
-the [*"this"*](#Settings_user_roles) link.
+the [*"this"*](Settings.md#user-roles) link.
 
 ### Overview
 

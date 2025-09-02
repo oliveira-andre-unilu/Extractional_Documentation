@@ -17,7 +17,7 @@ This tool will allow you to compare to documents, item-by-item, and will
 visualize you the differences between both items.
 
 For more information, please go to the following
-[section](../System%20Overview/Tools.md#Document_comparison_tool) where you can find a more in-depth
+[section](../System%20Overview/Tools.md#document-comparison-tool) where you can find a more in-depth
 guide on how to use this tool.
 
 #### File exportation 
@@ -27,4 +27,4 @@ Peppol-compliant, you will be able to generate various exportations
 related to these validations.
 
 For more information on how to export documents, please see the
-following [section](../System%20Overview/Validations.md#Exporting-Documents).
+following [section](../System%20Overview/Validations.md#exporting-documents).

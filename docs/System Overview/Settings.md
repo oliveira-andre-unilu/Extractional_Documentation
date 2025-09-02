@@ -100,7 +100,11 @@ right corner of the respective account representative tile.
 
 ---
 
-## Document Settings - Analysis Fields
+<!-- <h2 id=analysis-fields>Document Settings - Analysis Fields</h2> -->
+
+<h1>Document Settings</h1>
+
+## Analysis Fields
 
 In this subpage of Settings, you can define all the data that shall be
 extracted from each type of document that is being read.
@@ -203,7 +207,7 @@ each table means.
 
 ---
 
-## Document Settings - Document Tables
+## Document Tables
 
 In this subpage of the settings you will be able to define what you
 would like to have visible in the document table the is situated in the
@@ -275,7 +279,7 @@ can be used to sort the document's list or not.
 
 ---
 
-## Document Settings - Document Flags
+## Document Flags
 
 In the following page, you will be able to define and modify all of your
 document flags.
@@ -300,7 +304,7 @@ list.
 !!! note
     If you would like to change or add flag automation together with
     exportation, you shall define it in the [export
-    page](#Export---default-values).
+    page](#default-export-values).
 
 #### Adding a new flag 
 
@@ -344,7 +348,9 @@ from the system.
 
 ---
 
-## Export - Default Values
+<h1>Export</h1>
+
+## Default export Values
 
 In this page, you can define the default values in the system's export
 menu.
@@ -359,7 +365,7 @@ If you would like to change the default values for exportation, you will
 need to simply select the desired values in this page and click on the
 `Submit` button at the bottom of the page.
 
-## Export - CSV Templates
+## Export CSV Templates
 
 This page is responsible for defining all the different CSV templates
 available in the system.
@@ -477,7 +483,9 @@ You can also define all default templates for each type of document
 default. The previously default template for that type of document will
 be automatically unselected. -->
 
-## Export - JSON
+
+## Export JSON
+
 
 In this page, you will be able to define all automations with flags for
 all JSON exportations.
@@ -527,12 +535,12 @@ There are three main templates that shall be defined:
     defining all the information that shall
     be released for XML payments (typically SEPA transaction XML files).
 
-## Export - PEPPOL/ZUGFeRD
+## Export PEPPOL/ZUGFeRD
 
 On these pages, you can define all flag-based automations for
 PEPPOL/ZUGFeRD exports. The layout and navigation are identical to the
 **Export -- JSON** page. For a more detailed explanation of how these
-pages work, refer to [the corresponding section](#Export---JSON)
+pages work, refer to [the corresponding section](#export-json)
 of this manual.
 
 ---
@@ -765,7 +773,7 @@ In order to realize this connection, you first need to make sure that
 your email host domain allows you to elaborate such a connection.
 
 If you are currently trying to connect to an professional outlook
-account, please use the following [paragraph](#Outlook-connection)
+account, please use the following [paragraph](#outlook-connection)
 that explains exactly how to establish a connection to a an outlook
 account.
 

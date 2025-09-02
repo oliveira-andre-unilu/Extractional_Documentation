@@ -13,7 +13,7 @@ To do so, you will need to go to the setting page followed by the
 **Analysis Field** page. Once you have found the correct page, you shall
 once find the correct table to define all the different fields. If you
 would like more precise information on this topic, you can go to the
-section about [setting up all fields](../System%20Overview/Settings.md#Document-Settings---Analysis-Fields) in the
+section about [setting up all fields](../System%20Overview/Settings.md#analysis-fields) in the
 previous chapter.
 
 Although our system allows you to personalize all the fields, we
@@ -41,7 +41,7 @@ like to realize your payments in the system.
 
 To do so, you shall need to add all of your accounts in the Settings
 page. For more specific information, please go to the [Company
-Data](../System%20Overview/Settings.md#Company-Data) section in the previous chapter of this manual,
+Data](../System%20Overview/Settings.md#company-data) section in the previous chapter of this manual,
 where you can find a detailed guide on how to add an account in your
 system.
 
@@ -80,5 +80,5 @@ disposal.
 
 In addition, if you would like to have a more in-depth guide on how to
 define all the different options that you would like to have in your
-system, please follow following [link](../System%20Overview/Settings.md#Peppol) that will take
+system, please follow following [link](../System%20Overview/Settings.md#peppol) that will take
 you a more precise guide on how to use the following page.

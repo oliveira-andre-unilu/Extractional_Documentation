@@ -74,7 +74,7 @@ amount of time.
 
 Automation via email is set on the settings page; if you want more
 information about this feature, please click the following
-[link](Settings#IMAP-Monitoring).
+[link](Settings.md#imap-monitoring).
 
 #### Manual insertion 
 
@@ -163,7 +163,7 @@ desired field first and change the value by right-clicking the correct
 value on the file or you can also manually type the correct value.
 
 !!! warning "Important"
-    You will only be able to correct the values if the field is set to allow manual changes. For more information, please consult the [`Settings page`](Settings.md#Document-Settings---Analysis Fields)
+    You will only be able to correct the values if the field is set to allow manual changes. For more information, please consult the [`Settings page`](Settings.md#analysis-fields)
 
 Once you have finished verifying all the data from the data collection
 window, you can decide whether you want to release the document or not.
