@@ -1,6 +1,6 @@
 # Users
 
-## What is the main purpose
+## What is the main Purpose
 
 Inside this page, you will be able to control and monitor all users that
 do have access to your system and data. Additionally, it is also here
@@ -89,7 +89,7 @@ can always create more roles in the system as well as define what each
 role's rights are. More information on defining roles is available at
 the following link.
 
-## Main functionalities overview
+## Main Functionalities Overview
 
 In this section, you will receive an explanation of how to use each
 functionality of this page.

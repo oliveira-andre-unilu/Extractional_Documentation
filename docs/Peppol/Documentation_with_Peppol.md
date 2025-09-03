@@ -42,7 +42,7 @@ the `Submit` button located at the bottom of the page.
 Now, all documents that use this template will automatically be Peppol
 compliant.
 
-## Peppol-compliant validations
+## Peppol-compliant Validations
 
 Once you start receive Peppol-compliant validations, you will start to
 see the main advantage of using Peppol compliant data in our system.

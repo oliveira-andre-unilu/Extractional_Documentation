@@ -75,7 +75,7 @@ profit from the advantages of Extractional.
 </div>
 
 
-## Main functionalities overview
+## Main Functionalities Overview
 
 ### Creating a new validation
 
@@ -211,7 +211,7 @@ Once you have finished Releasing a document, you can always go back to
 the main Validation page by clicking on the \"back\" page on the bottom
 left corner of the page.
 
-## Secondary functionalities and useful tips
+## Secondary Functionalities and useful Tips
 
 In this section, we will show all the secondary functionalities; these
 however are as important as the main ones since these ones will
@@ -351,7 +351,7 @@ You will be presented with a new window where you need to choose the export form
 
 All teh files will be then exported a compressed .zip folder.
 
-## Improvement of workflow
+## Improvement of Workflow
 
 In this part, we will talk about to main points featured in our system
 that will allow you to improve your workflows.

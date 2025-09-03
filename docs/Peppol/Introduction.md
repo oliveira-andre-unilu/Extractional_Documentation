@@ -24,7 +24,7 @@ etc.) but will also itemize all items that can be found in the document
 and save all the informations in each item specified in your document to
 use it for further features in the system.
 
-## Features enabled with Peppol compliant documents
+## Features enabled with Peppol compliant Documents
 
 Having Peppol-compliant documents in the system allows for a handful
 number of features. These features will include:

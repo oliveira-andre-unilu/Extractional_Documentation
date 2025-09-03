@@ -1,6 +1,6 @@
 # Settings
 
-## What is the main purpose
+## What is the main Purpose
 
 In this part of this system, you will be able to define the major
 behaviour of your system. It is also where you shall define all of your
@@ -1119,11 +1119,11 @@ In this part, you shall define all legal entities that shall be used for creatin
 
 ---
 
-## Google keys
+## Google Keys
 
 **This feature is still under development**
 
-## System settings
+## System Settings
 
 In this page, you will be able to define all general settings of your
 system.

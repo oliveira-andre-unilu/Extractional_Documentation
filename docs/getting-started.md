@@ -41,6 +41,6 @@ pdf: false
 </div>
 
 
-## Documentation in paper
+## Documentation In Paper
 
 - [__Read__ this documentation in the PDF format](./documentation.pdf)

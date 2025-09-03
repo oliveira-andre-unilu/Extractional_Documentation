@@ -2,11 +2,11 @@
 pdf: true
 ---
 
-# Setting up the system
+# Setting up the System
 
 In this part, you will learn how to set up the system as well as how to define each user(s) for each one of the tenants as we call it.
 
-## Adding all sub-organizations in the system
+## Adding All Sub-organizations in the System
 
 The first step of this process is to add all of your sub-organizations into the system. To do so, you will need to go to the main `Users` page and navigate to the `Tenants` tile.
 
@@ -20,13 +20,13 @@ You will then need to add all the respective suborganization coordinates and sav
 
 You always have the possibility to change any of the Tenants in your system by clicking on the `Update` button that is situated next to the Tenant that is currently selected.
 
-## Adding all users for each organization
+## Adding all Users for each Organization
 
 Once all tenants have been defined, you will now be able to define all of the users for each one of the organizations.
 
 !!! warning "**Some precautions before you start adding users**"
     - Each user shall have a unique e-mail address across all tenants.
 
-## Defining all permissions for all users as well as other preferences
+## Defining all Permissions for all Users as well as other Preferences
 
 **This part is still under development**

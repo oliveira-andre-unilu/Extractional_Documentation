@@ -28,7 +28,7 @@ navigate and interact with the system effectively.
     -   `"Line items":` Document's positioned items, in other words, all
         data that will be used for Peppol data extraction.
 
-## Purpose and functionality
+## Purpose and Functionality
 
 Welcome to the Extractional User Manual. In this guide, you'll find
 comprehensive information about how to use our software system
@@ -206,7 +206,7 @@ tasks are distributed evenly. This helps you identify and address
 workload imbalances early, ensuring that your team works collaboratively
 and efficiently.
 
-## Seamless integration of purchasing and accounting departments
+## Seamless Integration of Purchasing and Accounting Departments
 
 ![image](img/Icons_and_more/Export_icon_blue.png){width="50" align=left}
 

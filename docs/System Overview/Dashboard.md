@@ -21,7 +21,7 @@ visualizations that are at your disposal.
 
 ![image](../img/Screenshots/Dashboard/Dashboard_overview.png){width="1000"}
 
-## Defining your time period
+## Defining your Time Period
 
 Before performing any analysis or interacting with the dashboard, it is
 essential to first define the time period within the dashboard. The

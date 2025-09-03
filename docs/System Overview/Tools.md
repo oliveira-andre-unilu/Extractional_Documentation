@@ -1,6 +1,6 @@
 # Tools
 
-## What is the main purpose of this page
+## What is the main Purpose of this Page
 
 In this page will will find all the additional pages that our system
 offers. All of these tools have been developed to help companies improve
@@ -46,7 +46,7 @@ parallel to the rest of the system.
 
 </div>
 
-## Document comparison tool
+## Document comparison Tool
 
 This tool, as the name suggests, allows one to compare current documents
 that are currently in the system. It will verify what are the difference
@@ -111,7 +111,7 @@ Lastly, once all of the preferences have been chosen, you shall now
 click on the `Submit` button, and the corresponding XML file(s) will
 be downloaded.
 
-## XML verification
+## XML Verification
 
 In this tool you will be able to verify if any XML files (SEPA or
 PEPPOL) are syntactically correct.
@@ -139,7 +139,7 @@ clicking on the `Submit` button. The system will then verify the
 chosen file and will now directly tell you if there are any errors in
 the file.
 
-## PDF manipulation
+## PDF Manipulation
 
 Our system also provides different pdf manipulation tools. All of these
 tool will allow you to help you manage all pdf files easily.
