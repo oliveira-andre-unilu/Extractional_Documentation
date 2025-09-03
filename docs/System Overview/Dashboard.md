@@ -202,7 +202,7 @@ In this list, we will be visualized with the different validations that are curr
 
 The to-do list shall be positioned at the beginning of the dashboard and should look like this:
 
-![Image](../img/Screenshots/Dashboard/To-do_list_overview.png){width=100}
+![Image](../img/Screenshots/Dashboard/To-do_list_overview.png){width=800}
 
 ### How to directly interact with one or several validations
 
