@@ -193,4 +193,19 @@ features are available:
 
 ## To-Do List
 
-**This section is currently under development.**
+### Overview
+
+In this list, we will be visualized with the different validations that are currently assigned to you and that shall be treated by you.
+
+!!! note
+    Please pay attention that all validations shown in the to-do list only appear accordingly to the time period that has been selected.
+
+The to-do list shall be positioned at the beginning of the dashboard and should look like this:
+
+![Image](../img/Screenshots/Dashboard/To-do_list_overview.png){width=100}
+
+### How to directly interact with one or several validations
+
+In order to directly visualize one visualization, you will simply need to click on the view button of the respective validation.
+
+Additionally, if you would like to view several validations at the same time, can select all the desired validations in the table and click on the view button of one of the validations and all the validations will be opened in the system.

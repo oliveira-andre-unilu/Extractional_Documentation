@@ -107,7 +107,7 @@ with a new page that should look like this:
 
 **The second step** will then be to select the file that you want to
 upload to the system. This can be easily done by clicking the
-\"Browse\...\" button and using your operating system's file-selection
+`Browse\...` button and using your operating system's file-selection
 dialog to choose the file.
 
 After having chosen the desired file to upload, you shall only upload
@@ -131,8 +131,7 @@ you have clicked this button, the system will look something like this:
 Once you have achieved to do all the different steps, you will have two
 choices, you can either save the current entry or you could release it.
 Please, pay attention that to release one validation you need to have
-the rights to do it, more information about releasing a document is
-available in the [following chapter].
+the rights to do it.
 
 To save the validation, you will need to click on the \"Save values\"
 button, which can be seen in the bottom left corner of the Data

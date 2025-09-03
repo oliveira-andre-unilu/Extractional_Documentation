@@ -56,8 +56,8 @@ in the system.
 ### How to use it
 
 First of all, you will to trigger the system that you want to use that
-specific tool. To do so, you will need to `click` on the \"Compare
-Documents\" that can be found on the left side of the screen. Once you
+specific tool. To do so, you will need to click on the `Compare
+Documents` that can be found on the left side of the screen. Once you
 have triggered the system, your system should look like this:
 
 ![image](../img/Screenshots/Tools/Compare_documents.png){width="1000"}
@@ -76,7 +76,7 @@ transactions needed to liquidate all selected validations.
 
 In order to use this tool, you account(s) will needs to already be
 configured in the system. This can be done in the settings page. For
-more information, please follow the following \"link\" (STILL TO DO).
+more information, please follow the following [link](Settings.md#company-data)
 
 In addition, you will only be able to generate XML files for validations
 that have been released, this ensuring that you do not pay any documents
@@ -150,8 +150,8 @@ This tool allows you to merge several pdf file into one file.
 
 #### How to use this tool 
 
-To use this tool, you will need to firstly click on the \"Merge PDF
-Files\" text field on the left side of the screen. You will then be
+To use this tool, you will need to firstly click on the `Merge PDF
+Files` text field on the left side of the screen. You will then be
 presented with the following screen:
 
 ![image](../img/Screenshots/Tools/PDF_Merging_overview.png){width="1000"}
@@ -219,8 +219,7 @@ password at your disposal.
 
 #### How to use this tool 
 
-To use this tool, you will need to first click on the \"Remove
-Password\" text field on the left side of the screen. You will then be
+To use this tool, you will need to first click on the `Remove Password` text field on the left side of the screen. You will then be
 presented with the following screen:
 
 ![image](../img/Screenshots/Tools/PDF_remove_password.png){width="1000"}
@@ -240,8 +239,7 @@ a pop-up message will be shown telling you what went wrong.
 
 ### Repair file
 
-This tool will help you recover any corrupted pdf file that might suffer
-any lightly damages.
+This tool will help you recover any corrupted pdf file that might have suffered any lightly damages.
 
 !!! warning "Important"
     Please note that this tool will only recover files that have suffered

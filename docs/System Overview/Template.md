@@ -18,7 +18,8 @@ Before starting to create all the different templates, it is recommended
 to define all the data that shall be collected in your system. To do so,
 you shall go into the application settings and define all the data
 collection in the Document section. You can find more information in the
-\"Some link\" settings tab.\
+`Some link` settings tab.
+
 In addition, it is also recommended to define the type of user who has
 the permission to create or manage the application. More information in
 the [*"this"*](Settings.md#user-roles) link.
