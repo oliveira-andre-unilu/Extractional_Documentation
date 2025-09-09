@@ -50,7 +50,7 @@ parallel to the rest of the system.
 
 This tool, as the name suggests, allows one to compare current documents
 that are currently in the system. It will verify what are the difference
-between both documents depending on the criteria that you shall insert
+between both documents depending on the criteria(s) that you shall insert
 in the system.
 
 ### How to use it
@@ -62,10 +62,53 @@ have triggered the system, your system should look like this:
 
 ![image](../img/Screenshots/Tools/Compare_documents.png){width="1000"}
 
-Now that you have opened the comparison tool, you will only need to
+### Executing a simple comparison
+
+**What is a simple comparison**
+
+A simple comparison in our system is when you simply choose one Argument for each document for comparison.
+The system, in this case, will simply look for all the chosen argument in each document in the left and try to find the same value in one of the items of the selected at the right side.
+
+**How to do it**
+
+To do a simple comparison between two or more documents,you will only need to
 click choose on file at each side window, choose the comparison
 criterion, and click on the `Submit` button to let the system
 visualize the differences between both documents.
+
+!!! note
+    Please note that you have the possibility to choose several documents at the left side of tool, allowing to compare several documents into a single one.
+
+### Executing a multi-conditional comparison
+
+**What is a multi-conditional comparison in our system**
+
+A multi-conditional comparison in our system allows you to define a identifier argument to a comparison and one or several arguments as comparative ones.
+
+In this case, the system will try to find an item within each document with the same identifier argument and compare the other arguments defined. If the system fails to do to find two items with the same identity argument,, it will not execute any comparison.
+
+**How to execute this type of comparison**
+
+In order to trigger the system to create such a comparison, you will firstly need to define the identity argument for each one of the sides as if you where to do a simple comparison.
+
+You will then add all of your comparison arguments by clicking on the small green plus icon that can be found at the top right corner of the left argument case.
+
+Once done, you will need to define the argument that you want to compare in both sides. You can add as many comparative arguments as you would like.
+
+Once you have made your choice, you will simply need to click on the `Submit` button at the system will execute the comparison.
+
+!!! note
+    All items that do not have a respective item to compare will appear in <span style="color:red">red</span> while all the other will appear in <span style="color:green">green</span>.
+    In addition, all comparative elements that will not be equal within the same identity elements will not appear in red.
+
+Here you may also find a screenshot of how the system will look like when comparing elements from two documents:
+
+![Image](../img/Screenshots/Tools/Comparing_documents_elements.png){width=1000}
+
+### Additional buttons
+
+<!-- TODO:Continue here -->
+**Still to do**
 
 ## SEPA XML
 
