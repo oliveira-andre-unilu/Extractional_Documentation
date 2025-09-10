@@ -46,6 +46,8 @@ parallel to the rest of the system.
 
 </div>
 
+---
+
 ## Document comparison Tool
 
 This tool, as the name suggests, allows one to compare current documents
@@ -107,8 +109,9 @@ Here you may also find a screenshot of how the system will look like when compar
 
 ### Additional buttons
 
-<!-- TODO:Continue here -->
-**Still to do**
+Additionally, you also have the possibility to directly change the state o of teh document that is being compared. This can be done by clicking on the `Release` button on the bottom left corner of the respective table.
+
+---
 
 ## SEPA XML
 
@@ -154,6 +157,8 @@ Lastly, once all of the preferences have been chosen, you shall now
 click on the `Submit` button, and the corresponding XML file(s) will
 be downloaded.
 
+---
+
 ## XML Verification
 
 In this tool you will be able to verify if any XML files (SEPA or
@@ -181,6 +186,8 @@ After making your choice, you can now verify your XML file by simply
 clicking on the `Submit` button. The system will then verify the
 chosen file and will now directly tell you if there are any errors in
 the file.
+
+---
 
 ## PDF Manipulation
 

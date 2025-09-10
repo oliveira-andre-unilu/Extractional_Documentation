@@ -130,6 +130,8 @@ nav:
   - Multi tenant system:
     - Multi tenant system: Multi tenant system/index.md
     - Setting up the system: Multi tenant system/Setting up the system.md
+
+  - FAQ: FAQ.md
 extra_css:
   - stylesheets/extra.css
 # markdown_extensions:

@@ -44,3 +44,7 @@ pdf: false
 ## Documentation In Paper
 
 - [__Read__ this documentation in the PDF format](./documentation.pdf)
+
+## Some questions ?
+
+- [__Take a look__ at our FAQ page](FAQ.md)
