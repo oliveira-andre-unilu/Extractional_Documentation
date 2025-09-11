@@ -1,10 +1,13 @@
 ---
-version: "v1.0"
+version: "v0.1"
 ---
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 # Documentation with Peppol
+
+!!! danger "Annonce importante"
+    Cette page est encore en cours de traduction dans votre langue. Pour le moment, vous pouvez utiliser cette page en anglais.
 
 In this section you will find a guide on how to have documentation being
 Peppol compliant and you will also find a guide on how all validation

@@ -1,10 +1,13 @@
 ---
-version: "v1.0"
+version: "v0.1"
 ---
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 # Prerequisites
+
+!!! danger "Annonce importante"
+    Cette page est encore en cours de traduction dans votre langue. Pour le moment, vous pouvez utiliser cette page en anglais.
 
 In this section of this chapter, you will find all the different tasks
 that need to be accomplished in order to set our system to be

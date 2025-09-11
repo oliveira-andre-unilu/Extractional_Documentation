@@ -1,3 +1,9 @@
+---
+version: "v1.0"
+---
+
+<span class="version-label">*Version: {{ page.meta.version }}*</span>
+
 # Tools
 
 ## What is the main Purpose of this Page

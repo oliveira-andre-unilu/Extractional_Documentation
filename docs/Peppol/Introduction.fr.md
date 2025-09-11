@@ -1,10 +1,13 @@
 ---
-version: "v1.0"
+version: "v0.1"
 ---
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 # Introduction
+
+!!! danger "Annonce importante"
+    Cette page est encore en cours de traduction dans votre langue. Pour le moment, vous pouvez utiliser cette page en anglais.
 
 This Chapter will consist on explaining all Peppol features that our
 system offers as well helping you setting all these features in your

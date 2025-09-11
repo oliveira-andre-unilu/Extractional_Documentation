@@ -1,6 +1,9 @@
 ---
 pdf: true
+version: "v1.0"
 ---
+
+<span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 # Setting up the System
 

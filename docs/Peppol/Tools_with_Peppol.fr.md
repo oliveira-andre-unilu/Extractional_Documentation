@@ -1,10 +1,13 @@
 ---
-version: "v1.0"
+version: "v0.1"
 ---
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 # Additional tools and features
+
+!!! danger "Annonce importante"
+    Cette page est encore en cours de traduction dans votre langue. Pour le moment, vous pouvez utiliser cette page en anglais.
 
 When using Peppol-compliant transactions, you will be able to use some
 additional tools that are available in the tools page. These tools will

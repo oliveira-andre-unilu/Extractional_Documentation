@@ -198,7 +198,7 @@ release. To help you find this sequence of buttons, you can use the
 following illustration to help you:
 
 ![image](../img/Screenshots/Validation/Release_refused.png){width="250"}
-
+<!-- MARKER -->
 If you reject a validation, a pop-up page will
 appear to either write a simple note explaining the reason behind
 refusing the document or it could also prepare the e-mail the shall be

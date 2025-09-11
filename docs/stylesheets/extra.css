@@ -115,3 +115,10 @@
   margin-bottom: 0.25em;
   font-size: 0.75rem;
 }
+
+.version-label {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5em;
+  display: block;
+}

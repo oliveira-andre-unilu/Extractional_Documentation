@@ -1,6 +1,9 @@
 ---
 pdf: true
+version: "v1.0"
 ---
+
+<span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 ## Template
 
@@ -8,17 +11,15 @@ pdf: true
 
 In this page, the user will define all the different templates for all
 the different types of documents that the user wants to automate in the
-system for data collection.\
+system for data collection.
+
 Furthermore, the user also has the possibility to manage all current
 templates that have been created.
 
 ### Prerequisites
 
 Before starting to create all the different templates, it is recommended
-to define all the data that shall be collected in your system. To do so,
-you shall go into the application settings and define all the data
-collection in the Document section. You can find more information in the
-`Some link` settings tab.
+to define all the data that shall be collected in your system. To do so, you shall go into the application settings and define all the data that shall be collected in your system. You can find more information in the [the following section](Settings.md#analysis-fields).
 
 In addition, it is also recommended to define the type of user who has
 the permission to create or manage the application. More information in
