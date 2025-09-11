@@ -1,6 +1,9 @@
 ---
 pdf: true
+version: "v1.0"
 ---
+
+<span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 <div class="no-pdf">
 <button class="md-button print-button" onclick="window.print()">

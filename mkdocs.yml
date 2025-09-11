@@ -53,6 +53,20 @@ plugins:
         - locale: fr
           name: French
           build: true
+          nav_translations:
+            Home: Accueil
+            System Overview: Présentation du système
+            Dashboard: Tableau de bord
+            Settings: Paramètres
+            Template: Modèle
+            Tools: Outils
+            Users: Utilisateurs
+            Peppol: Peppol
+            Prerequisites: Conditions préalables
+            Tools with Peppol: Outils avec Peppol
+            Documentation with Peppol: Documentation avec Peppol
+            Multi tenant system: Système multi-organisationnel
+            Setting up the system: Configuration du système
         - locale: de
           name: German
           build: true
