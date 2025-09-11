@@ -21,8 +21,8 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: pip install mkdocs-glightbox
-      - run: pip install mkdocs-with-pdf
-      - run: pip install mkdocs-exporter
+      - run: pip install mkdocs-glightbox
+      - run: pip install mkdocs-static-i18n
       - run: playwright install
       - run: pip install mkdocs-macros-plugin
       - run: mkdocs gh-deploy --force

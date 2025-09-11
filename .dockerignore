@@ -1,0 +1,21 @@
+# Ignore local development stuff
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+
+# Virtual environments
+venv/
+.env/
+
+# Git stuff
+.git
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db

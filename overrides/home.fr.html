@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <section class="mdx-container">
+    <div class="mdx-hero">
+      <div class="mdx-hero__content">
+        <img src="{{ base_url }}/img/icon_transparent.png">
+        <h1>Documentation du logiciel Extractional</h1>
+        <p>Extrait et numérise tes données avec Extractional</p>
+        <a class="md-button md-button--primary" href="{{ base_url }}/fr/getting-started.html">Commencez dès maintenant</a>
+      </div>
+    </div>
+  </section>
+  {{ super() }}
+{% endblock %}

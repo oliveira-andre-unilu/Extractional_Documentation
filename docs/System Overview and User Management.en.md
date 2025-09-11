@@ -2,6 +2,15 @@
 pdf: true
 ---
 
+<div class="no-pdf">
+<button class="md-button print-button" onclick="window.print()">
+  Print this page
+</button>
+</div>
+
+# Introduction
+
+
 This chapter provides an overview of the system and outlines its main
 components and functionalities. It explains how responsibilities are
 distributed among different user roles, highlights key safety and access

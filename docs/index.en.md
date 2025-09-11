@@ -1,7 +1,7 @@
 ---
 pdf: false
 
-template: home.html
+template: home.en.html
 
 hide:
   - navigation

@@ -42,45 +42,20 @@ plugins:
   - search
   - macros:
       include_dir: docs/assets
-  - exporter:
-      logging:
-            level: debug
-      formats:
-        pdf:
-          enabled: !ENV [MKDOCS_EXPORTER_PDF, true]
-          concurrency: 16
-          stylesheets:
-            - resources/stylesheets/pdf.scss
-          covers:
-            front: resources/templates/covers/front.html.j2
-            # back: resources/templates/covers/front.html.j2
-          browser:
-            debug: false
-          aggregator:
-            enabled: true
-            output: documentation.pdf
-            covers: front
-      buttons:
-        - title: View as PDF
-          icon: material-file-move-outline
-          enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
-          attributes:
-            target: _blank
-            href: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.href
-        - title: Download as PDF
-          icon: material-file-download-outline
-          enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
-          attributes: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.attributes
-  # - with-pdf:
-  #     palette: custom
-  #     output_path: pdf/manual.pdf
-  #     cover_title: My Software Manual
-  #     cover_subtitle: Version 1.0
-  #     author: Andre Martins
-  #     toc_title: Table of Contents
-  #     # Define which docs to include and in what order
-  #     exclude:
-  #       - index.md
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: fr
+          name: French
+          build: true
+        - locale: de
+          name: German
+          build: true
 #   - social
 
 extra:

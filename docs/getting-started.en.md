@@ -10,10 +10,6 @@ pdf: false
   Learn about the core features and architecture.  
   [:octicons-arrow-right-24: Read more](System%20Overview/index.md)
 
-<!-- - :material-account: **User Management**  
-  How to add, remove, and manage users.  
-  [:octicons-arrow-right-24: Read more](System%20Overview%20and%20User%20Management.md) -->
-
 - :material-view-dashboard: **Dashboard**  
   Explore the interactive dashboard features.  
   [:octicons-arrow-right-24: Read more](System%20Overview/Dashboard.md)
