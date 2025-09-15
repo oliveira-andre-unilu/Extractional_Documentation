@@ -42,7 +42,7 @@ version: "v1.0"
 
 ## Dokumentation in Papierform
 
-- [__Lesen__ Sie diese Dokumentation im PDF-Format](./documentation.pdf)
+- [__Lesen__ Sie diese Dokumentation im PDF-Format](../pdfs/de/merged.pdf)
 
 ## Einige Fragen?
 

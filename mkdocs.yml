@@ -40,8 +40,7 @@ theme:
 plugins:
   - glightbox
   - search
-  - macros:
-      include_dir: docs/assets
+  - macros
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -139,6 +138,3 @@ extra_css:
 #   - pymdownx.emoji:
 #       emoji_index: !!python/name:materialx.emoji.twemoji
 #       emoji_generator: !!python/name:materialx.emoji.to_svg
-
-# copyright: |
-#   &copy; 2023 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>

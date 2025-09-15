@@ -43,7 +43,7 @@ version: "v1.0"
 
 ## Documentation In Paper
 
-- [__Read__ this documentation in the PDF format](./documentation.pdf)
+- [__Read__ this documentation in the PDF format](./pdfs/merged.pdf)
 
 ## Some questions ?
 
