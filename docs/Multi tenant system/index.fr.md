@@ -4,6 +4,12 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../../pdfs/fr/Multi tenant system.pdf" target="_blank">
+    Télécharger cette section au format PDF
+  </a>
+</div>
+
 # Configuration du système pour le support multi-organisation
 
 Dans cette partie du manuel, nous allons expliquer comment configurer votre système pour inclure plusieurs sous-organisations au sein du même système.

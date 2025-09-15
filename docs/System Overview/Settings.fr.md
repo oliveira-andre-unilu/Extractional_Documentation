@@ -4,6 +4,12 @@ version: "v0.1"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../../pdfs/fr/System Overview-Settings.pdf" target="_blank">
+    Télécharger cette section au format PDF
+  </a>
+</div>
+
 # Settings
 
 !!! danger "Annonce importante"

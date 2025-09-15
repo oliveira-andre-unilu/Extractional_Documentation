@@ -4,6 +4,12 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/Peppol-Introduction.pdf" target="_blank">
+    Get this section in PDF
+  </a>
+</div>
+
 # Introduction
 
 This Chapter will consist on explaining all Peppol features that our

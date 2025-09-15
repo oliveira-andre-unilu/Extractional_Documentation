@@ -6,6 +6,12 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/Multi tenant system.pdf" target="_blank">
+    Get this section in PDF
+  </a>
+</div>
+
 # Configuring the System for Multi-Organization Support
 
 In this part of the manual, we will explain how to configure your system to have several sub-organisations within the same system.

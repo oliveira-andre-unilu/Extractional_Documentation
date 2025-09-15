@@ -6,6 +6,12 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../../pdfs/de/System Overview.pdf" target="_blank">
+    Diesen Abschnitt als PDF herunterladen
+  </a>
+</div>
+
 # Systemübersicht
 
 In diesem Kapitel erhalten Sie ein detailliertes Handbuch, das

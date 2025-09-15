@@ -5,6 +5,12 @@ version: "v1.0"
 
 <span class="version-label">*Version : {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../../pdfs/fr/Multi tenant system-Setting up the system.pdf" target="_blank">
+    Télécharger cette section au format PDF
+  </a>
+</div>
+
 # Configuration du système
 
 Dans cette partie, vous apprendrez à configurer le système ainsi qu’à définir chaque utilisateur pour chacun des tenants, comme nous les appelons.

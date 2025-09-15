@@ -6,10 +6,11 @@ version: "v1.0"
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 <div class="no-pdf">
-<button class="md-button print-button" onclick="window.print()">
-  Print this page
-</button>
+  <a class="md-button print-button" href="./pdfs/System Overview and User Management.pdf" target="_blank">
+    Get this section in PDF
+  </a>
 </div>
+
 
 # Introduction
 

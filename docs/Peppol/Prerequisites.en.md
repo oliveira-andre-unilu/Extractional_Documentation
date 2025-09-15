@@ -4,6 +4,12 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/Peppol-Prerequisites.pdf" target="_blank">
+    Get this section in PDF
+  </a>
+</div>
+
 # Prerequisites
 
 In this section of this chapter, you will find all the different tasks

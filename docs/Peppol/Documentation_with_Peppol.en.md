@@ -4,6 +4,12 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/Peppol-Documentation_with_Peppol.pdf" target="_blank">
+    Get this section in PDF
+  </a>
+</div>
+
 # Documentation with Peppol
 
 In this section you will find a guide on how to have documentation being

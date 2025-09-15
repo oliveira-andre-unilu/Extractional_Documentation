@@ -4,6 +4,13 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../../pdfs/de/Multi tenant system.pdf" target="_blank">
+    Diesen Abschnitt als PDF herunterladen
+  </a>
+</div>
+
+
 # Konfiguration des Systems für Multi-Organisations-Unterstützung
 
 In diesem Abschnitt des Handbuchs wird erklärt, wie Sie Ihr System so konfigurieren, dass mehrere Unterorganisationen innerhalb desselben Systems existieren.

@@ -4,6 +4,12 @@ version: "v0.1"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/fr/Peppol-Introduction.pdf" target="_blank">
+    Télécharger cette section au format PDF
+  </a>
+</div>
+
 # Introduction
 
 !!! danger "Annonce importante"

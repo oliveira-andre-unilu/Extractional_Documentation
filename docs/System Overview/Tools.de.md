@@ -4,6 +4,12 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../../pdfs/de/System Overview-Tools.pdf" target="_blank">
+    Diesen Abschnitt als PDF herunterladen
+  </a>
+</div>
+
 # Werkzeuge
 
 ## Was ist der Hauptzweck dieser Seite

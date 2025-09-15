@@ -4,6 +4,12 @@ version: "v0.1"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/fr/Peppol-Documentation_with_Peppol.pdf" target="_blank">
+    Télécharger cette section au format PDF
+  </a>
+</div>
+
 # Documentation with Peppol
 
 !!! danger "Annonce importante"

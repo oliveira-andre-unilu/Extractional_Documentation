@@ -5,6 +5,12 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/Multi tenant system-Setting up the system.pdf" target="_blank">
+    Get this section in PDF
+  </a>
+</div>
+
 # Setting up the System
 
 In this part, you will learn how to set up the system as well as how to define each user(s) for each one of the tenants as we call it.

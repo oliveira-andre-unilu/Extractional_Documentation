@@ -1,6 +1,15 @@
 ---
 pdf: true
+version: "v1.0"
 ---
+
+<span class="version-label">*Version: {{ page.meta.version }}*</span>
+
+<div class="no-pdf">
+  <a class="md-button print-button" href="../../pdfs/fr/System Overview-Validations.pdf" target="_blank">
+    Télécharger cette section au format PDF
+  </a>
+</div>
 
 # Validation
 

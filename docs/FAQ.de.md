@@ -10,6 +10,13 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/de/FAQ.pdf" target="_blank">
+    Diesen Abschnitt als PDF herunterladen
+  </a>
+</div>
+
+
 <h1 class=main-centered-title>FAQ</h1>
 
 ---

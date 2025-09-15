@@ -4,6 +4,12 @@ version: "v1.0"
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/System Overview-Settings.pdf" target="_blank">
+    Get this section in PDF
+  </a>
+</div>
+
 # Settings
 
 ## What is the main Purpose
