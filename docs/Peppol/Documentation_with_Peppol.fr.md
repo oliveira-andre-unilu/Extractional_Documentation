@@ -1,114 +1,76 @@
 ---
-version: "v0.1"
+version: "v1.0"
 ---
 
-<span class="version-label">*Version: {{ page.meta.version }}*</span>
+<span class="version-label">*Version : {{ page.meta.version }}*</span>
 
 <div class="no-pdf">
-  <a class="md-button print-button" href="../pdfs/fr/Peppol-Documentation_with_Peppol.pdf" target="_blank">
-    Télécharger cette section au format PDF
+  <a class="md-button print-button" href="../pdfs/Peppol-Documentation_with_Peppol.pdf" target="_blank">
+    Obtenir cette section en PDF
   </a>
 </div>
 
-# Documentation with Peppol
+# Documentation avec Peppol
 
-!!! danger "Annonce importante"
-    Cette page est encore en cours de traduction dans votre langue. Pour le moment, vous pouvez utiliser cette page en anglais.
+Dans cette section, vous trouverez un guide expliquant comment rendre votre documentation conforme à Peppol ainsi qu’un guide montrant comment toutes les validations doivent être visibles une fois que votre documentation est conforme à Peppol.
 
-In this section you will find a guide on how to have documentation being
-Peppol compliant and you will also find a guide on how all validation
-shall be visible once a your documentation is Peppol compliant.
+## Création de modèles conformes à Peppol
 
-## Creating Peppol-compliant Templates
+Avant de commencer à avoir des validations conformes à Peppol, vous devrez créer des modèles qui soient également conformes à Peppol. Cela permettra à notre système d’extraire automatiquement toutes les informations de chaque élément de chaque document.
 
-Before you start having Peppol-compliant validations, you will need to
-create templates that are also Peppol-compliant. This will allow our
-system to automatically extract all the information from each element of
-each document.
+Vous commencerez par créer un nouveau modèle comme d’habitude ; un guide plus détaillé se trouve dans le [chapitre précédent](../System%20Overview/Template.md#adding-a-new-template) concernant la création d’un nouveau modèle.
 
-You will start by creating a new template as usual; a more in-depth
-guide can be found on the [previous chapter](../System%20Overview/Template.md#adding-a-new-template)
-about creating a new template.
-
-Once you have created this new template and added all the fields as
-usual, you shall trigger the system to be Peppol compliant. To do this,
-you shall click on the respective check-box that is situated at the
-bottom of the fields window, and all the Peppol-specific fields should
-also pop-up.
+Une fois que vous avez créé ce nouveau modèle et ajouté tous les champs comme d’habitude, vous devrez activer le mode conforme à Peppol. Pour ce faire, cliquez sur la case à cocher correspondante située en bas de la fenêtre des champs, et tous les champs spécifiques à Peppol apparaîtront.
 
 ![image](../img/Peppol/NEW_template_Peppol.png){width="1000"}
 
-Once you have triggered the system, you will now need to define all the
-Peppol specific fields. The mechanism to define each field will be the
-same as before, but in this part you will be defining all fields of each
-element for itemization.
-There are some important points that should be considered once linking
-all fields:
+Une fois le système activé, vous devrez définir tous les champs spécifiques à Peppol. Le mécanisme pour définir chaque champ reste le même, mais cette fois vous définirez tous les champs de chaque élément pour l’**individualisation**.  
+Quelques points importants à considérer lors du lien de tous les champs :
 
--   All example values to which reference shall be referred shall refer
-    to the first element of the document.
+-   Toutes les valeurs d’exemple auxquelles les références doivent se rapporter doivent se référer au premier élément du document.
+-   Pour la description en particulier, il suffit de cliquer sur le premier élément de la description.
 
--   For the description specifically, you only need to click on the
-    first element of the description.
+Une fois que vous avez relié tous les champs différents, il ne vous reste plus qu’à cliquer sur le bouton `Soumettre` situé en bas de la page.
 
-Once you have linked all the different fields, you shall only click on
-the `Submit` button located at the bottom of the page.
+Désormais, tous les documents utilisant ce modèle seront automatiquement conformes à Peppol.
 
-Now, all documents that use this template will automatically be Peppol
-compliant.
+## Validations conformes à Peppol
 
-## Peppol-compliant Validations
+Une fois que vous commencerez à recevoir des validations conformes à Peppol, vous verrez le principal avantage d’utiliser des données conformes à Peppol dans notre système.
 
-Once you start receive Peppol-compliant validations, you will start to
-see the main advantage of using Peppol compliant data in our system.
+#### Individualisation des éléments dans chaque validation
 
-#### Itemization of elements within each validation 
-
-The first main difference that you will be able to see is the
-itemization that will be available to be seen as a table in each
-validation. This can be seen in the validation edit page, at the bottom
-of the data page.
+La première différence principale que vous pourrez constater est l’individualisation visible sous forme de tableau dans chaque validation. Cela peut être vu dans la page d’édition de validation, en bas de la page des données.
 
 ![image](../img/Peppol/Validation_items.png){width="600"}
 
-#### Prepayments/Payments done table
+#### Tableau des prépaiements/paiements effectués
 
-The second additional element that is available when using Peppol enabled validations is allowing to store all (pre)payments made for a specific validation.
+Le deuxième élément supplémentaire disponible lors de l’utilisation de validations conformes à Peppol est la possibilité de stocker tous les (pré)paiements effectués pour une validation spécifique.
 
 ![image](../img/Peppol/Validation_prepayments_table.png){width=850}
 
-In order to add a new payment, it is as simple to add a new line into the table and save the values at the bottom of the validation's page.
+Pour ajouter un nouveau paiement, il suffit d’ajouter une nouvelle ligne dans le tableau et d’enregistrer les valeurs en bas de la page de validation.
 
 !!! warning "Important"
-    Please be aware that all the different payment values need to be inserted in relation to the document, which means that if a document has already been partially paid, the number inserted will be **negative**.
+    Veuillez noter que toutes les différentes valeurs de paiement doivent être saisies en relation avec le document, ce qui signifie que si un document a déjà été partiellement payé, le montant saisi sera **négatif**.
 
+#### Tableau d’indication des conditions de paiement
 
-#### Payment Terms indication table
-
-The third additional element is the `Payment terms` field. In this table you shall enter any specific payment terms that the respective customer has requested.
+Le troisième élément supplémentaire est le champ `Conditions de paiement`. Dans ce tableau, vous devez saisir toutes les conditions de paiement spécifiques demandées par le client concerné.
 
 ![Image](../img/Peppol/Payment_terms_field.png){width=750}
 
+#### Exportation de tous les éléments
 
-#### Exportation of all items 
-
-In addition, you can also export all the different items into a file.
-You will have the ability to choose the export format as well as the
-template.
+De plus, vous pouvez également exporter tous les différents éléments dans un fichier. Vous aurez la possibilité de choisir le format d’exportation ainsi que le modèle.
 
 !!! info
-    Please, make sure that you have a template that satisfies your
-    satisfaction before exporting a validation.
+    Veuillez vous assurer que vous disposez d’un modèle adapté avant d’exporter une validation.
 
-To realise this operation, you will need to go to the edit page of the
-validation that you would like to export and navigate to the end of the
-data page.
+Pour réaliser cette opération, vous devez vous rendre sur la page d’édition de la validation que vous souhaitez exporter et naviguer jusqu’à la fin de la page de données.
 
-Once there, you will be able to see all the selective fields where you
-can select the format of export as well as the template that you would
-like to use.
-Once you have selected your preference, you will only need to click on
-the `Export` button at the bottom of the page, and the file will
-automatically download to your system.
+Une fois là, vous verrez tous les champs sélectifs où vous pouvez choisir le format d’exportation ainsi que le modèle que vous souhaitez utiliser.  
+Après avoir sélectionné vos préférences, il vous suffit de cliquer sur le bouton `Exporter` en bas de la page, et le fichier sera automatiquement téléchargé sur votre système.
 
 ![image](../img/Peppol//Validation_export_buttons.png){width="600"}
