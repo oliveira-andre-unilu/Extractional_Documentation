@@ -1,90 +1,89 @@
 ---
-version: "v0.1"
+version: "v1.0"
 ---
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 <div class="no-pdf">
-  <a class="md-button print-button" href="../pdfs/fr/Peppol-Introduction.pdf" target="_blank">
+  <a class="md-button print-button" href="../../pdfs/fr/Peppol-Introduction.pdf" target="_blank">
     Télécharger cette section au format PDF
   </a>
 </div>
 
 # Introduction
 
-!!! danger "Annonce importante"
-    Cette page est encore en cours de traduction dans votre langue. Pour le moment, vous pouvez utiliser cette page en anglais.
+Ce chapitre expliquera toutes les fonctionnalités Peppol que notre
+système propose et vous aidera à configurer ces fonctionnalités dans
+votre système. Nous vous guiderons également sur la manière d’utiliser
+ces fonctionnalités par la suite.
 
-This Chapter will consist on explaining all Peppol features that our
-system offers as well helping you setting all these features in your
-system. We will also help you guide on how to use these features
-afterwards.
+## Qu’est-ce que Peppol et quel est l’intérêt de l’intégrer dans votre système
 
-## What is Peppol about what would be the interest to integrate in your system
+Peut-être connaissez-vous déjà Peppol : c’est une méthode standardisée
+pour envoyer des factures d’une entreprise à une autre. Comme la plupart
+des entreprises utilisent régulièrement ce système, notre société a
+décidé d’utiliser ces standards pour ajouter des fonctionnalités utiles
+à notre système.
 
-Maybe you were familiar with Peppol, Peppol is a standardized way to
-send invoices from one company to another. As most companies regularly
-use this system, our company thought about using these standards to add
-some helpful features to our system.
+Ce qui rend les documents conformes à Peppol particuliers, c’est que
+toutes les factures Peppol doivent suivre un schéma précis. Ce schéma
+nous permet d’extraire encore plus d’informations de vos documents, ce
+qui automatise ainsi certains processus de votre entreprise.
 
-What is special about Peppol compliant documents is that all Peppol
-compliant invoices are forced to use a certain pattern and this pattern
-will allow us to extract even more information from your documents, thus
-automating some of the processes of your company.
+L’une des fonctionnalités disponibles avec les documents conformes à
+Peppol est que le système ne se contente pas d’analyser un document et
+d’en extraire les informations générales (Nom, Date, Montant brut,
+etc.), mais il va également détailler tous les articles présents dans le
+document et enregistrer toutes les informations de chaque élément
+indiqué dans votre document, pour les utiliser dans d’autres
+fonctionnalités du système.
 
-One of the features that will be available to all Peppol compliant
-documents is that the system will not only look at a certain document
-and extract the general information about it (Name, Date, Sum(brut),
-etc.) but will also itemize all items that can be found in the document
-and save all the informations in each item specified in your document to
-use it for further features in the system.
+## Fonctionnalités activées avec des documents conformes à Peppol
 
-## Features enabled with Peppol compliant Documents
-
-Having Peppol-compliant documents in the system allows for a handful
-number of features. These features will include:
+L’utilisation de documents conformes à Peppol dans le système permet
+d’activer un certain nombre de fonctionnalités. Celles-ci incluent :
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-square-check:{ .lg .middle } __Easy verification__
+-   :fontawesome-solid-square-check:{ .lg .middle } __Vérification simplifiée__
 
     ---
 
-    Verification of all the calculated values in the document are
-    correct. This includes VAT and temporary deduction if invoice is
-    paid within a certain amount of days, for example.    
+    Vérification que toutes les valeurs calculées dans le document sont
+    correctes. Cela inclut la TVA et les remises temporaires si la facture
+    est payée dans un certain délai, par exemple.
 
--   :fontawesome-solid-code-compare:{ .lg .middle } __Easy comparison of documents__
+-   :fontawesome-solid-code-compare:{ .lg .middle } __Comparaison facilitée des documents__
 
     ---
 
-    Comparison of documents in the system. The system will enable
-    comparative of to specific documents in the system,this can be
-    helpful if you would like to quickly identify why the total price of
-    a certain quote differs from the corresponding invoice.
+    Comparaison des documents dans le système. Le système permet de comparer
+    deux documents spécifiques, ce qui peut être utile pour identifier
+    rapidement pourquoi le prix total d’un devis diffère de la facture
+    correspondante.
     
--   :fontawesome-solid-money-bill:{ .lg .middle } __SEPA transaction automation__
+-   :fontawesome-solid-money-bill:{ .lg .middle } __Automatisation des transactions SEPA__
 
     ---
 
-    Enabling SEPA transaction automation. The system will also allow you
-    to automatically create SEPA XML files in your system for all the
-    desired documents.
+    Activation de l’automatisation des transactions SEPA. Le système permet
+    également de générer automatiquement des fichiers XML SEPA dans votre
+    système pour tous les documents souhaités.
 
--   :fontawesome-solid-file:{ .lg .middle } __Generating Peppol compliant files__
+-   :fontawesome-solid-file:{ .lg .middle } __Génération de fichiers conformes à Peppol__
 
     ---
 
-    Extraction of all Peppol (or ZUGFeRD for Germany) invoices in
-    their respoective format.
+    Extraction de toutes les factures Peppol (ou ZUGFeRD pour l’Allemagne)
+    dans leur format respectif.
 
 </div>
 
 <div class="no-pdf">
 
-<h2>Video Tutorials</h2>
+<h2>Tutoriels vidéo</h2>
 
-<h3>Templates and validations<h3>
+<h3>Modèles et validations</h3>
 
 <div class = "responsive-video">
 
@@ -92,7 +91,7 @@ number of features. These features will include:
 
 </div>
 
-<h3>Using a Peppol XML invoice in MyGuichet</h3>
+<h3>Utiliser une facture XML Peppol dans MyGuichet</h3>
 
 <div class = "responsive-video">
 
@@ -101,3 +100,4 @@ number of features. These features will include:
 </div>
 
 </div>
+

@@ -1,5 +1,5 @@
 ---
-version: "v0.1"
+version: "v1.0"
 ---
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
@@ -10,36 +10,33 @@ version: "v0.1"
   </a>
 </div>
 
-# Additional tools and features
+# Outils et fonctionnalités supplémentaires
 
-!!! danger "Annonce importante"
-    Cette page est encore en cours de traduction dans votre langue. Pour le moment, vous pouvez utiliser cette page en anglais.
+Lorsque vous utilisez des transactions conformes à Peppol, vous aurez
+accès à certains outils supplémentaires disponibles dans la page des
+outils. Ces outils vous aideront à améliorer encore davantage votre flux
+de travail au quotidien.
 
-When using Peppol-compliant transactions, you will be able to use some
-additional tools that are available in the tools page. These tools will
-again help you improve your workflow during the day.
+Les outils supplémentaires disponibles une fois que vous avez introduit
+des documents conformes à Peppol dans votre système sont :
 
-The additional tools that are available once you have introduced
-Peppol-compliant documents to your system are:
+-   Comparaison de documents  
+-   Création de fichiers XML SEPA  
 
--   Document comparison
+#### Comparaison de documents
 
--   SEPA XML file creation
+Cet outil vous permettra de comparer deux documents, élément par
+élément, et de visualiser les différences entre les deux.
 
-#### Document comparison 
+Pour plus d’informations, veuillez consulter la [section
+suivante](../System%20Overview/Tools.md#document-comparison-tool), où
+vous trouverez un guide plus détaillé sur l’utilisation de cet outil.
 
-This tool will allow you to compare to documents, item-by-item, and will
-visualize you the differences between both items.
+#### Exportation de fichiers
 
-For more information, please go to the following
-[section](../System%20Overview/Tools.md#document-comparison-tool) where you can find a more in-depth
-guide on how to use this tool.
+Une fois que vous disposez de plusieurs validations publiées dans votre
+système et conformes à Peppol, vous pourrez générer diverses
+exportations liées à ces validations.
 
-#### File exportation 
-
-Once you have various validations released in your system that are
-Peppol-compliant, you will be able to generate various exportations
-related to these validations.
-
-For more information on how to export documents, please see the
-following [section](../System%20Overview/Validations.md#exporting-documents).
+Pour plus d’informations sur l’exportation de documents, veuillez
+consulter la [section suivante](../System%20Overview/Validations.md#exporting-documents).

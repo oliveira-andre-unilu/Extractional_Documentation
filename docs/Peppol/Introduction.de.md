@@ -1,91 +1,90 @@
 ---
-version: "v0.1"
+version: "v1.0"
 ---
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 <div class="no-pdf">
-  <a class="md-button print-button" href="../pdfs/de/Peppol-Introduction.pdf" target="_blank">
+  <a class="md-button print-button" href="../../pdfs/de/Peppol-Introduction.pdf" target="_blank">
     Diesen Abschnitt als PDF herunterladen
   </a>
 </div>
 
 
-# Introduction
+# Einführung
 
-!!! danger "Wichtige Ankündigung"
-    Diese Seite befindet sich noch in der Entwicklung für die Übersetzung in Ihre Sprache. Vorläufig können Sie diese Seite auf Englisch nutzen.
+In diesem Kapitel werden alle Peppol-Funktionen erklärt, die unser
+System bietet, sowie eine Anleitung, wie Sie diese Funktionen in Ihrem
+System einrichten. Außerdem zeigen wir Ihnen, wie Sie diese Funktionen
+anschließend nutzen können.
 
-This Chapter will consist on explaining all Peppol features that our
-system offers as well helping you setting all these features in your
-system. We will also help you guide on how to use these features
-afterwards.
+## Was ist Peppol und warum sollte es in Ihr System integriert werden
 
-## What is Peppol about what would be the interest to integrate in your system
+Vielleicht kennen Sie Peppol bereits: Es ist eine standardisierte
+Methode, um Rechnungen von einem Unternehmen an ein anderes zu senden.
+Da die meisten Unternehmen dieses System regelmäßig verwenden, haben wir
+uns entschieden, diese Standards zu nutzen, um unserem System nützliche
+Funktionen hinzuzufügen.
 
-Maybe you were familiar with Peppol, Peppol is a standardized way to
-send invoices from one company to another. As most companies regularly
-use this system, our company thought about using these standards to add
-some helpful features to our system.
+Das Besondere an Peppol-konformen Dokumenten ist, dass alle
+Peppol-Rechnungen einem bestimmten Schema folgen müssen. Dieses Schema
+ermöglicht es uns, noch mehr Informationen aus Ihren Dokumenten zu
+extrahieren und somit bestimmte Prozesse in Ihrem Unternehmen zu
+automatisieren.
 
-What is special about Peppol compliant documents is that all Peppol
-compliant invoices are forced to use a certain pattern and this pattern
-will allow us to extract even more information from your documents, thus
-automating some of the processes of your company.
+Eine der Funktionen, die für alle Peppol-konformen Dokumente verfügbar
+sind, besteht darin, dass das System nicht nur die allgemeinen
+Informationen (Name, Datum, Bruttosumme usw.) aus einem Dokument
+extrahiert, sondern auch alle Artikelpositionen detailliert erfasst und
+die Informationen zu jeder einzelnen Position speichert, um sie für
+weitere Funktionen im System zu nutzen.
 
-One of the features that will be available to all Peppol compliant
-documents is that the system will not only look at a certain document
-and extract the general information about it (Name, Date, Sum(brut),
-etc.) but will also itemize all items that can be found in the document
-and save all the informations in each item specified in your document to
-use it for further features in the system.
+## Funktionen mit Peppol-konformen Dokumenten
 
-## Features enabled with Peppol compliant Documents
-
-Having Peppol-compliant documents in the system allows for a handful
-number of features. These features will include:
+Die Nutzung von Peppol-konformen Dokumenten im System ermöglicht eine
+Reihe von Funktionen, darunter:
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-square-check:{ .lg .middle } __Easy verification__
+-   :fontawesome-solid-square-check:{ .lg .middle } __Einfache Überprüfung__
 
     ---
 
-    Verification of all the calculated values in the document are
-    correct. This includes VAT and temporary deduction if invoice is
-    paid within a certain amount of days, for example.    
+    Überprüfung, ob alle im Dokument berechneten Werte korrekt sind. Dazu
+    gehören die Mehrwertsteuer sowie mögliche Skonti, wenn die Rechnung
+    beispielsweise innerhalb einer bestimmten Frist bezahlt wird.
 
--   :fontawesome-solid-code-compare:{ .lg .middle } __Easy comparison of documents__
+-   :fontawesome-solid-code-compare:{ .lg .middle } __Einfacher Dokumentenvergleich__
 
     ---
 
-    Comparison of documents in the system. The system will enable
-    comparative of to specific documents in the system,this can be
-    helpful if you would like to quickly identify why the total price of
-    a certain quote differs from the corresponding invoice.
+    Vergleich von Dokumenten im System. Das System ermöglicht den Vergleich
+    zweier spezifischer Dokumente, was hilfreich sein kann, um schnell zu
+    erkennen, warum sich der Gesamtpreis eines Angebots von der Rechnung
+    unterscheidet.
     
--   :fontawesome-solid-money-bill:{ .lg .middle } __SEPA transaction automation__
+-   :fontawesome-solid-money-bill:{ .lg .middle } __SEPA-Transaktionsautomatisierung__
 
     ---
 
-    Enabling SEPA transaction automation. The system will also allow you
-    to automatically create SEPA XML files in your system for all the
-    desired documents.
+    Aktivierung der Automatisierung von SEPA-Transaktionen. Das System
+    ermöglicht es Ihnen außerdem, automatisch SEPA-XML-Dateien für alle
+    gewünschten Dokumente zu erstellen.
 
--   :fontawesome-solid-file:{ .lg .middle } __Generating Peppol compliant files__
+-   :fontawesome-solid-file:{ .lg .middle } __Generierung von Peppol-konformen Dateien__
 
     ---
 
-    Extraction of all Peppol (or ZUGFeRD for Germany) invoices in
-    their respoective format.
+    Extraktion aller Peppol-Rechnungen (oder ZUGFeRD für Deutschland) in ihrem
+    jeweiligen Format.
 
 </div>
 
 <div class="no-pdf">
 
-<h2>Video Tutorials</h2>
+<h2>Video-Tutorials</h2>
 
-<h3>Templates and validations<h3>
+<h3>Vorlagen und Validierungen</h3>
 
 <div class = "responsive-video">
 
@@ -93,7 +92,7 @@ number of features. These features will include:
 
 </div>
 
-<h3>Using a Peppol XML invoice in MyGuichet</h3>
+<h3>Verwendung einer Peppol-XML-Rechnung in MyGuichet</h3>
 
 <div class = "responsive-video">
 

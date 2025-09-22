@@ -5,7 +5,7 @@ version: "v1.0"
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
 
 <div class="no-pdf">
-  <a class="md-button print-button" href="../pdfs/Peppol-Documentation_with_Peppol.pdf" target="_blank">
+  <a class="md-button print-button" href="../../pdfs/de/Peppol-Documentation_with_Peppol.pdf" target="_blank">
     Diese Sektion als PDF herunterladen
   </a>
 </div>

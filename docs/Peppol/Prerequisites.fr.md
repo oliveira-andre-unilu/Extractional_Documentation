@@ -1,5 +1,5 @@
 ---
-version: "v0.1"
+version: "v1.0"
 ---
 
 <span class="version-label">*Version: {{ page.meta.version }}*</span>
@@ -10,90 +10,88 @@ version: "v0.1"
   </a>
 </div>
 
-# Prerequisites
+# Prérequis
 
-!!! danger "Annonce importante"
-    Cette page est encore en cours de traduction dans votre langue. Pour le moment, vous pouvez utiliser cette page en anglais.
+Dans cette section de ce chapitre, vous trouverez toutes les différentes
+tâches à accomplir afin de configurer notre système pour qu’il soit
+conforme à Peppol.
 
-In this section of this chapter, you will find all the different tasks
-that need to be accomplished in order to set our system to be
-Peppol-compliant.
+#### Définir tous les champs à extraire dans chaque élément
 
-#### Defining all the different fields to be extracted in each item 
+L’une des premières tâches à effectuer est de définir tous les champs
+que vous souhaitez extraire dans chaque élément de votre document.
 
-One of the first tasks that shall be done is to define all the fields
-that you would like to extract within each item of your document.
+Pour ce faire, vous devez aller sur la page des paramètres, puis sur la
+page **Champs d’analyse**. Une fois sur la bonne page, vous devrez
+trouver le tableau approprié pour définir tous les différents champs. Si
+vous souhaitez des informations plus précises sur ce sujet, vous pouvez
+consulter la section sur la [configuration de tous les
+champs](../System%20Overview/Settings.md#analysis-fields) dans le chapitre précédent.
 
-To do so, you will need to go to the setting page followed by the
-**Analysis Field** page. Once you have found the correct page, you shall
-once find the correct table to define all the different fields. If you
-would like more precise information on this topic, you can go to the
-section about [setting up all fields](../System%20Overview/Settings.md#analysis-fields) in the
-previous chapter.
-
-Although our system allows you to personalize all the fields, we
-recommend that you always have some of the fields. The following fields
-that should always be used are:
+Bien que notre système vous permette de personnaliser tous les champs,
+nous vous recommandons d’inclure systématiquement certains champs. Les
+champs suivants devraient toujours être utilisés :
 
 -   Position
+-   Numéro d’article
+-   Quantité
+-   Unité de mesure
 
--   Article Number
+Ces champs, en plus d’être courants dans la plupart des documents,
+permettent également de faciliter l’utilisation des outils suivants,
+tels que la comparaison de documents ainsi que l’exportation de
+documents Peppol.
 
--   Quantity
+#### Ajouter toutes vos coordonnées bancaires dans votre compte
 
--   Measuring unit
+Comme l’une des principales fonctionnalités de notre système consiste à
+générer des fichiers XML de transactions SEPA, l’un des prérequis
+nécessaires pour faire fonctionner le système est d’ajouter tous vos
+comptes bancaires dans lesquels vous souhaitez effectuer des paiements.
 
-These fields, while being common to be present in all documents, will
-also allow easy the usage in the following tools such as for the
-document comparison as well as for Peppol exporting documents.
+Pour ce faire, vous devez ajouter tous vos comptes dans la page des
+Paramètres. Pour plus d’informations, veuillez consulter la section
+[Données de l’entreprise](../System%20Overview/Settings.md#company-data) dans le chapitre précédent de ce
+manuel, où vous trouverez un guide détaillé expliquant comment ajouter
+un compte dans votre système.
 
-#### Adding all of your bank details into your account 
+#### Configurer tous les formats d’exportation nécessaires
 
-Since one of the main features of our system is about generating SEPA
-transaction XML files, one of the prerequisites that is needed to have
-the system working would be to add all of your account(s) that you would
-like to realize your payments in the system.
+Comme certains formats d’exportation sont spécifiques aux documents
+conformes à Peppol, vous devez les définir avant de commencer à exporter
+tous les documents souhaités. Voici la liste des formats d’exportation
+que vous pourriez devoir configurer, ainsi qu’une explication des
+fonctionnalités qu’ils permettent d’activer.
 
-To do so, you shall need to add all of your accounts in the Settings
-page. For more specific information, please go to the [Company
-Data](../System%20Overview/Settings.md#company-data) section in the previous chapter of this manual,
-where you can find a detailed guide on how to add an account in your
-system.
+-   Format XML : Ce format doit être prédéfini si vous souhaitez générer
+    des fichiers XML SEPA. Veuillez utiliser le lien suivant pour un
+    guide plus détaillé sur la définition de tous les formats
+    d’exportation XML.
 
-#### Setting up al needed export formats
+-   Format Peppol : Ce format vous permettra d’exporter tous les
+    documents et transactions au format PEPPOL. Veuillez utiliser le
+    lien suivant pour une explication plus détaillée sur la définition
+    de tous les formats d’exportation PEPPOL.
 
-Since there are some specific export formats that are specific for
-Peppol-compliant documents, you will need to define them before you
-start exporting all the desired documents. Here is a list of all the
-export formats that you might need to define, as well as an explanation
-about the features that it will enable.
+-   Format ZUGFeRD : Ce format vous permettra d’exporter tous les
+    documents et transactions au format ZUGFeRD (format spécifique à
+    l’Allemagne). Veuillez utiliser le lien suivant pour une explication
+    plus détaillée sur la définition de tous les formats d’exportation
+    PEPPOL.
 
--   XML format: This format must be pre-defined if you want to generate
-    SEPA XML files. Please use the following link for a more detailed
-    guide on how to define all XML export formats.
+#### Personnaliser tous les paramètres spécifiques à PEPPOL pour votre entreprise
 
--   Peppol format: This format will allow you to export all documents
-    and transactions in a PEPPOL format. Please use the following link
-    for a more detailed explanation on how to define all the PEPPOL
-    export formats.
+L’une des principales difficultés lors du travail avec des données
+conformes à Peppol est généralement de trouver la bonne option parmi
+toutes celles que le système propose. C’est particulièrement le cas
+lorsque l’on parle des unités de mesure ainsi que des méthodes de
+paiement.
 
--   ZUGFeRD format: This format will allow you to export all documents
-    and transactions in a ZUGFeRD format (Germany-specific format).
-    Please use the following link for a more detailed explanation on how
-    to define all the PEPPOL export formats.
+Afin d’offrir à nos utilisateurs une expérience plus conviviale dans
+notre système, nous permettons de masquer certaines des options que
+Peppol met à votre disposition.
 
-#### Customizing all PEPPOL specific parameters for your company 
-
-One of the main difficulties when working with Peppol-compliant data is
-generally to find the correct option within all of the options that the
-system provides. This is especially the case when we start talking about
-measuring units as well as payment methods.
-
-So, to help our users have a more convenient experience in our system,
-we do allow hiding some of the options that Peppol has at your own
-disposal.
-
-In addition, if you would like to have a more in-depth guide on how to
-define all the different options that you would like to have in your
-system, please follow following [link](../System%20Overview/Settings.md#peppol) that will take
-you a more precise guide on how to use the following page.
+De plus, si vous souhaitez un guide plus détaillé sur la manière de
+définir toutes les différentes options que vous souhaitez avoir dans
+votre système, veuillez suivre ce [lien](../System%20Overview/Settings.md#peppol) qui vous mènera à un guide plus précis
+sur l’utilisation de cette page.
