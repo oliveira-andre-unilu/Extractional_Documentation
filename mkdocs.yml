@@ -4,8 +4,8 @@ use_directory_urls: false
 theme:
   name: material
   custom_dir: overrides
-  favicon: img/icon_transparent.png
-  logo: img/icon_transparent.png
+  favicon: assets/icon_transparent.png
+  logo: assets/icon_transparent.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -42,7 +42,7 @@ plugins:
   - search
   - macros
   - i18n:
-      docs_structure: suffix
+      docs_structure: folder
       fallback_to_default: true
       languages:
         - locale: en
@@ -69,6 +69,20 @@ plugins:
         - locale: de
           name: German
           build: true
+          nav_translations:
+            Home: Startseite
+            System Overview: Systemübersicht
+            Dashboard: Dashboard
+            Settings: Einstellungen
+            Template: Vorlage
+            Tools: Werkzeuge 
+            Users: Benutzer
+            Peppol: Peppol
+            Prerequisites: Voraussetzungen
+            Tools with Peppol: Tools mit Peppol
+            Documentation with Peppol: Dokumentation mit Peppol
+            Multi tenant system: Mehrfach-Organisationssystem
+            Setting up the system: Einrichtung des Systems
 #   - social
 
 extra:

@@ -1,0 +1,134 @@
+:root  > * {
+  --md-primary-fg-color:        #016ebc;
+  --md-primary-fg-color--light: #028bee;
+  --md-primary-fg-color--dark:  #013256;
+}
+
+.hero-landing {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  /* Edge-to-edge within the content area */
+  margin: 0;
+  padding: 6rem 1rem;
+
+  background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+              url("../img/bg-main-page.jpg") center / cover no-repeat;
+
+  color: #fff;
+}
+
+.hero-landing h1,
+.hero-landing p {
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,.6);
+}
+
+
+.footer-link {
+  display: inline-grid;
+  place-items: center;
+  margin: 15px 10px 10px 15px;
+  align-items: center;
+  align-self: center;
+  gap: 0.5em;
+  text-decoration: none;
+  font-size: 0.5rem;
+  font-weight: 500;
+  color: inherit;
+}
+.footer-link:hover {
+  text-decoration: underline;
+  background-color: rgba(209,210,210,0.15);
+  border-radius: 5px;
+
+}
+
+@media print {
+  .no-pdf{
+    display: none !important;
+  }
+}
+
+/* Target admonition of type tip */
+/* .md-typeset .admonition.tip > .admonition-title::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f0eb";
+  display: inline-block;
+  margin-right: 0.5em;
+} */
+
+/* new try */
+/* Hero section from the template */
+.mdx-hero {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+
+  background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+              url("../img/new-bg.jpg") center / cover no-repeat;
+}
+
+.mdx-hero h1,
+.mdx-hero p {
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,.6);
+}
+
+/*Defining aut resizing for all video previews*/
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+}
+
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Additional styling for FAQ page*/
+.main-centered-title{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+
+.centered-title{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Print button for selected pages*/
+.print-button {
+  margin-bottom: 0.75em;
+  font-size: 0.75rem;
+  align-items: center;
+  gap: 0.75em
+}
+
+.pdf-button {
+  display: inline-flex;        /*use flexbox inside */
+  /*align-items: center; */        /* vertical centering */
+  gap: 0.5em;                  /* space between icon and text */
+  text-decoration: none;       /* remove underline */
+}
+
+
+.version-label {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5em;
+  display: block;
+}
