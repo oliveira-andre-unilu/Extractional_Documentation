@@ -22,7 +22,7 @@ considerations, and describes the various views available within the
 user interface. Understanding these fundamentals will help users
 navigate and interact with the system effectively.
 
-??? info
+???+ info
     -   `Document:` in our system, when we talk about documents, we are
         talking about **Invoices, Credit notes, Delivery notes, Order forms,
         Order confirmations**, in other words, we talk about all financial

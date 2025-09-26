@@ -14,274 +14,238 @@ version: "v0.1"
 
 # Introduction
 
-!!! danger "Annonce importante"
-    Cette page est encore en cours de traduction dans votre langue. Pour le moment, vous pouvez utiliser cette page en anglais.
+Ce chapitre fournit une vue d’ensemble du système et décrit ses
+principaux composants et fonctionnalités. Il explique comment les
+responsabilités sont réparties entre différents rôles d’utilisateurs,
+met en évidence les aspects essentiels de sécurité et d’accès, et décrit
+les différentes vues disponibles dans l’interface utilisateur.
+Comprendre ces notions fondamentales aidera les utilisateurs à naviguer
+et interagir efficacement avec le système.
 
+???+ info
+    -   `Document :` dans notre système, lorsque nous parlons de documents,
+        nous faisons référence aux **factures, notes de crédit, bons de
+        livraison, bons de commande, confirmations de commande**, en
+        d’autres termes, à tous les documents financiers généralement
+        échangés dans les entreprises.
 
-This chapter provides an overview of the system and outlines its main
-components and functionalities. It explains how responsibilities are
-distributed among different user roles, highlights key safety and access
-considerations, and describes the various views available within the
-user interface. Understanding these fundamentals will help users
-navigate and interact with the system effectively.
+    -   `Validation :` entité de notre système représentant un document
+        entrant ou sortant qui a été enregistré dans notre système.
 
-??? info
-    -   `Document:` in our system, when we talk about documents, we are
-        talking about **Invoices, Credit notes, Delivery notes, Order forms,
-        Order confirmations**, in other words, we talk about all financial
-        documents that are generally interchanged in companies.
+    -   `Modèles :` Un modèle, dans notre système, regroupe toutes les
+        entités utilisées comme référence pour extraire des données des
+        futurs documents entrants/sortants.
 
-    -   `Validation:` entity in our system that represents one incoming out
-        outgoing document that as been registered in our system.
+    -   `"Données d’en-tête/pied de page" :` Tous les champs qui forment
+        l’en-tête et le pied de page du document (informations générales du
+        document).
 
-    -   `Templates:` A template, in our system, is all the entities that are
-        used as a reference to extract data from further incoming/outgoing
-        documents.
+    -   `"Postes de ligne" :` Éléments positionnés du document, en d’autres
+        termes, toutes les données utilisées pour l’extraction de données
+        Peppol.
 
-    -   `"Envelope Data":` All fields that form the header and footer of the
-        document (general information of the document).
+## Objectif et fonctionnalités
 
-    -   `"Line items":` Document's positioned items, in other words, all
-        data that will be used for Peppol data extraction.
+Bienvenue dans le manuel utilisateur d’Extractional. Dans ce guide, vous
+trouverez des informations complètes sur l’utilisation efficace de notre
+logiciel. Avant de commencer, nous allons vous présenter brièvement son
+objectif et expliquer comment il peut aider votre entreprise à optimiser
+ses opérations et gagner un temps précieux.
 
-## Purpose and Functionality
+### Extraction et automatisation des données des documents d’achat
 
-Welcome to the Extractional User Manual. In this guide, you'll find
-comprehensive information about how to use our software system
-effectively. Before diving in, we'll provide a brief overview of its
-purpose and explain how it can help your company streamline operations
-and save valuable time.
+L’objectif principal de notre système est d’extraire les données de tous
+les documents d’achat et de facturation entrants et sortants d’une
+entreprise. Une fois extraites, ces données sont traitées, ce qui permet
+d’automatiser des processus et de les exporter automatiquement vers
+d’autres systèmes, réduisant ainsi la charge de travail manuelle.
 
-### Extracting and automating purchasing documents data
+#### Extraction de fichiers PDF
 
-The main goal of our system is to extract data from all incoming and
-outgoing purchasing and billing documents within a company. Once
-extracted, the data will be processed, allowing one to automate
-processes and also automatically export it into other systems,
-streamlining operations and reducing manual workload.
-
-#### PDF files extraction
-
-Our software will extract data from all pdf formatted files. This allows
-our users to not need to change all their billing habits and maintains
-the usage of one of the most used format for these type of documents.
+Notre logiciel extrait les données de tous les fichiers au format PDF.
+Cela permet à nos utilisateurs de conserver leurs habitudes de
+facturation et de continuer à utiliser l’un des formats les plus
+courants pour ce type de document.
 
 ![Image title](img/Icons_and_more/data-extraction-reformated.png){ width="300"}
 /// caption
 
 ///
 
-#### Direct email account connection
+#### Connexion directe au compte e-mail
 
-<!-- ![image](img/Icons_and_more/email-icon-black.png#only-light){width="50" align=left} -->
 ![image](img/Icons_and_more/email.png){width="50" align=left}
 
-This software will automatically insert all incoming billing documents
-in the system by directly connecting to a e-mail address. This is done
-via a IMAP connection, witch is available for most of email domains.
+Le logiciel insère automatiquement tous les documents de facturation
+entrants dans le système en se connectant directement à une adresse
+e-mail. Cela se fait via une connexion IMAP, disponible pour la plupart
+des domaines de messagerie.
 
+### Utilisation des données numériques
 
+Un des principaux avantages de notre système est l’utilisation complète
+des données numériques. Cela facilite l’organisation de votre entreprise
+et améliore certaines tâches quotidiennes de vos employés.
 
-### Usage of numerical data
+#### Simplification du contrôle des documents
 
-One main advantage of using our system is the complete usage of
-numerical data. This will easy your company easy of organisation and
-improve some daily tasks of your employees.
+L’un des objectifs principaux atteints par notre logiciel est de rendre
+l’organisation des documents entrants et sortants simple, sans perte de
+temps inutile pour vos employés.
 
-#### Ease of document control 
+Comme vous le savez, le volume de documents que la plupart des
+entreprises reçoivent et gèrent peut être écrasant. Suivre l’état de
+chaque document et des transactions associées peut être difficile.
 
-One of the primary objectives we achieved with our software was to make
-it easy to organize all incoming and outgoing documents without
-consuming unnecessary employee time.
+Notre système simplifie l’organisation des documents tout en suivant
+leur statut. Il permet l’assignation automatique des documents aux
+membres de l’équipe et utilise des indicateurs visuels (drapeaux,
+marqueurs) pour préciser leur état. De plus, il organise toutes les
+transactions associées à chaque document.
 
-As you may know, the volume of documents most companies receive and
-handle can be overwhelming. Tracking the status of each document, along
-with the associated transactions, can be challenging to manage
-effectively.
-
-Our system makes document organization straightforward while also
-keeping track of their status. It allows automatic assignment of
-documents to team members and uses flags or markers to indicate their
-state. Additionally, it organizes all transactions associated with each
-document.
-
-![*Example of an existing file in our system with two flags assigned to
-it*](img/Screenshots/Validation/Document_with_flags.png){width="600"}
+![*Exemple d’un fichier existant dans notre système avec deux drapeaux
+attribués*](img/Screenshots/Validation/Document_with_flags.png){width="600"}
 /// caption
-*Example of an existing file in our system with two flags assigned to it*
+*Exemple d’un fichier existant dans notre système avec deux drapeaux attribués*
 ///
 
-#### Improving file searching
+#### Amélioration de la recherche de fichiers
 
-<!-- ![image](img/Icons_and_more/File_search_icon.png#only-light){width="50" align=left} -->
 ![image](img/Icons_and_more/search.png){width="50" align=left}
 
-Since our system relies on a numerical file storage system and features
-quick file searching algorithms and filtering algorithm , it will
-improve your company's productivity by not needing to look for a
-specific document like the old days.
+Puisque notre système repose sur un stockage numérique et utilise des
+algorithmes de recherche et de filtrage rapides, il améliore la
+productivité de votre entreprise en évitant la recherche manuelle de
+documents comme auparavant.
 
+#### Réduction de l’utilisation du papier
 
-
-#### Reducing paper usage in your company
-
-<!-- ![image](img/Icons_and_more/Papperless_icon_black.png#only-light){width="50" align=left} -->
 ![image](img/Icons_and_more/paperless.png){width="50" align=left}
 
-Automating document handling with our system significantly reduces paper
-usage. Since there is no longer a need to print documents for
-organizational purposes, as is common in many companies, this system
-allows your business to operate in an almost paperless environment.
+L’automatisation du traitement des documents avec notre système réduit
+considérablement l’utilisation du papier. Comme il n’est plus nécessaire
+d’imprimer les documents pour les organiser, votre entreprise peut
+fonctionner dans un environnement quasi sans papier.
 
-## User Management
+## Gestion des utilisateurs
 
-One of the key features of our system is the ability to define different
-user roles and automate work distribution.
+Une fonctionnalité clé de notre système est la possibilité de définir
+différents rôles d’utilisateurs et d’automatiser la répartition du
+travail.
 
-### User Roles
+### Rôles utilisateurs
 
-Our system provides several predefined user roles and also allows you to
-create new ones. Each role comes with specific permissions, which in
-turn determine the user's view and capabilities within the system.\
+Notre système propose plusieurs rôles prédéfinis et permet également d’en
+créer de nouveaux. Chaque rôle possède des autorisations spécifiques qui
+déterminent la vue et les capacités de l’utilisateur dans le système.
 
 #### Permissions
 
-Permissions in the system mainly control the type of access each team
-member has to your document database, as well as what they can create,
-modify, or delete in the system.
+Les permissions contrôlent principalement le type d’accès de chaque
+membre de l’équipe à la base de données des documents, ainsi que ce
+qu’il peut créer, modifier ou supprimer.
 
 ![Image title](img/System_overview_chapter/All_permissions_available.png){width="500"}
 /// caption
-*Picture showing all the different permissions available in our system*
+*Illustration montrant toutes les permissions disponibles dans notre système*
 ///
 
-Each permission has been defined to endure that all important operations
-in the system can be controlled. These are the following permissions
-available in the system:
+Chaque permission a été définie pour garantir que toutes les opérations
+importantes du système puissent être contrôlées. Voici les permissions
+disponibles :
 
--   `Read templates:` The user is allowed to access all templates and
-    view them.
+-   `Lire les modèles :` accès à tous les modèles et possibilité de les
+    consulter.
 
--   `Create templates:` The user is allowed to create new templates as
-    well as deleting/modifying existing ones
+-   `Créer des modèles :` création de nouveaux modèles, suppression ou
+    modification des existants.
 
--   `Read Validations:` The user is allowed to read all validations
-    (documents) that are available in the system
+-   `Lire les validations :` lecture de toutes les validations
+    (documents) disponibles.
 
-    -   `Limited to user account:` This option can be chosen if you only
-        want the user to be able to see all the validations that are
-        assigned to his name.
+    -   `Limité au compte utilisateur :` option permettant de restreindre
+        la visibilité aux validations assignées à l’utilisateur.
 
--   `Create validations:` The user is allowed to create new validation
-    instances in the system. However, these permissions do not allow us
-    to make these new validations as accepted in the system, they will
-    basically be always seen as unverified documents.
+-   `Créer des validations :` création de nouvelles validations, mais
+    celles-ci restent non vérifiées.
 
--   `Modify/Save Validations:` The user has the rights to modify all the
-    data extracted in a document and to save it on the system.
+-   `Modifier/Enregistrer des validations :` modification des données
+    extraites d’un document et enregistrement dans le système.
 
--   `Verify Validations:` The user has the rights to verify the
-    documents and release them into the system.
+-   `Vérifier des validations :` validation et publication des documents.
 
--   `Read Settings:` The user is allowed to enter the settings page and
-    see all the different preferences chosen. He will not be able to
-    change any data.
+-   `Lire les paramètres :` consultation des préférences système sans
+    possibilité de modification.
 
--   `Change Settings:` The user has the permission to change some(all)
-    settings. All the different settings sub-pages that this user shall
-    be able to use must be specifically defined in the indented boxes.
+-   `Modifier les paramètres :` modification de certains ou de tous les
+    paramètres, selon les droits attribués.
 
--   `Read User Data:` The user is allowed to read all the system user
-    data.
+-   `Lire les données utilisateurs :` accès aux données des utilisateurs
+    système.
 
--   `Create/Change Users:` The user is allowed to create a new user or
-    modify existing ones.
+-   `Créer/Modifier des utilisateurs :` création ou modification de
+    comptes.
 
--   `Read SEPA Data:` The user is allowed to read all SEPA related data
-    (for example bank credentials of documents payments)
+-   `Lire les données SEPA :` accès aux données liées aux paiements
+    (ex. coordonnées bancaires).
 
--   `Create SEPA Data:` The user is allowed to create SEPA related data,
-    this allowing the automation of payment of documents.
+-   `Créer des données SEPA :` création de données SEPA pour
+    automatiser les paiements.
 
--   `Advise Payment:` The user is also allowed to identify documents as
-    \"Paid\" in the system.
+-   `Marquer un paiement :` possibilité de signaler un document comme
+    « payé ».
 
-#### Why We Use User Roles
+#### Pourquoi utiliser des rôles utilisateurs
 
-The decision to implement user roles is straightforward: having
-predefined user types makes it easy to define new categories of users
-with a specific set of rights.\
-Additionally, if a particular category of user needs different
-permissions, you only need to update the settings for that role rather
-than changing permissions individually for each user.
+L’avantage des rôles prédéfinis est de simplifier la gestion : il suffit
+d’adapter les permissions d’un rôle plutôt que de modifier individuellement
+chaque utilisateur.
 
-### Simplified people management
+### Gestion simplifiée des collaborateurs
 
-Our software enables you to monitor your team's workload, ensuring that
-tasks are distributed evenly. This helps you identify and address
-workload imbalances early, ensuring that your team works collaboratively
-and efficiently.
+Notre logiciel permet de suivre la charge de travail de votre équipe,
+garantissant une répartition équilibrée. Cela aide à identifier et
+corriger les déséquilibres afin d’assurer un travail collaboratif et
+efficace.
 
-## Seamless Integration of Purchasing and Accounting Departments
+## Intégration fluide entre les services Achats et Comptabilité
 
 ![image](img/Icons_and_more/Export_icon_blue.png){width="50" align=left}
 
-Extractional creates a new and transparent connection between the
-purchasing and accounting departments. With all the data automatically
-extracted into the system and analyzed by all the different individuals
-in the purchasing department, the accounting will have a clear
-understanding each transaction made in the company.
+Extractional crée une connexion transparente entre les services Achats
+et Comptabilité. Les données extraites et analysées par le service Achats
+permettent au service Comptabilité d’avoir une compréhension claire de
+chaque transaction.
 
+### Exportation des données
 
+Notre système permet d’exporter toutes les données dans différents
+formats :
 
-### Exporting Data
+-   **`XML :`** export vers des logiciels de comptabilité comme **Sage
+    BOB50**.  
+-   **`JSON :`** format d’échange de données entre systèmes Extractional.  
+-   **`CSV :`** export vers des tableurs comme Excel.  
+-   **`Peppol :`** format international d’échange de documents
+    électroniques.  
+-   **`SEPA :`** format XML pour automatiser les paiements SEPA.  
 
-Our system also allows the users to export all the different data within
-the system into different formats allowing to export all the purchasing
-data into other systems.\
-The system allows you to export in the following formats:
+## Sécurité et contrôle d’accès
 
--   **`XML format:`** common format allowing you to export all data
-    into different accounting platforms such as **Sage BOB50**
+La sécurité des documents et la gestion des accès sont au cœur de notre
+système.
 
--   **`JSON format:`** commonly used format containing all information
-    of the extracted data. Can be used to interchange data between
-    Extractional systems.
+### Sécurité dans la base de données
 
--   **`CSV format:`** format allowing to view all the desired data in a
-    system's spreadsheet (for example Excel).
+Tous vos documents restent strictement confinés dans votre serveur
+interne. Aucune donnée ne quitte votre réseau sauf si vous le décidez.
 
--   **`Peppol format:`** international format used for interchanging
-    electronic documents with private entities as well as with the
-    gouvernment.
+### Contrôle des accès
 
--   **`SEPA format:`** This specific XML format allows to automate SEPA
-    payments allowing to easy elaborate payments within a company.
+Deux mesures principales :  
 
-## Safety and Access Control
+- **Contrôle d’accès basé sur les rôles** (expliqué précédemment).  
+- **Suivi des connexions :** chaque tentative de connexion est enregistrée
+avec l’adresse IP et le statut (réussi ou échoué).  
 
-A major focus of our system is ensuring the security of your documents
-and controlling all access within the platform.
-
-### Safety within the Database
-
-To guarantee that your company's documents are always available and
-secure, we ensure that they remain strictly confined within the server
-system you use. All system documents are stored on your server installed
-in your company, ensuring that your data never leaves your network
-unless explicitly done by you.
-
-### Access Control
-
-To strengthen access control, we have implemented several measures in
-the system.\
-The first is the use of role-based access control, which has already
-been explained in detail in a previous section.\
-The second is comprehensive login tracking. The system logs every login
-attempt along with the IP address of the person attempting to access the
-platform. This allows you to determine the origin of each access
-attempt. Additionally, the system records whether each login attempt was
-successful or not.
-
-![*Snapshot showing what a login history looks
-like*](img/Screenshots/Users/Login_history_overview.png){width="1000"}
+![*Aperçu d’un historique de connexions*](img/Screenshots/Users/Login_history_overview.png){width="1000"}
