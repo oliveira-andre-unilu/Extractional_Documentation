@@ -1,0 +1,1462 @@
+<!DOCTYPE html><html lang="fr" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="index.html">
+      
+      
+        <link rel="next" href="Template.html">
+      
+      
+      <link rel="icon" href="../../assets/icon_transparent.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Tableau de bord - Extractional Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tableau-de-bord" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../index.html" title="Extractional Documentation" class="md-header__button md-logo" aria-label="Extractional Documentation" data-md-component="logo">
+      
+  <img src="../../assets/icon_transparent.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Extractional Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tableau de bord
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="cyan" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="cyan" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sélectionner la langue">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../System%20Overview/Dashboard.html" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="Dashboard.html" hreflang="fr" class="md-select__link">
+              French
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../de/System%20Overview/Dashboard.html" hreflang="de" class="md-select__link">
+              German
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../System%20Overview%20and%20User%20Management.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="index.html" class="md-tabs__link">
+          
+  
+  
+  Présentation du système
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Peppol/Introduction.html" class="md-tabs__link">
+          
+  
+  
+  Peppol
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Multi%20tenant%20system/index.html" class="md-tabs__link">
+          
+  
+  
+  Système multi-organisationnel
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FAQ.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Extractional Documentation" class="md-nav__button md-logo" aria-label="Extractional Documentation" data-md-component="logo">
+      
+  <img src="../../assets/icon_transparent.png" alt="logo">
+
+    </a>
+    Extractional Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Accueil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../System%20Overview%20and%20User%20Management.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Présentation du système
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Présentation du système
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation du système
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Tableau de bord
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="Dashboard.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tableau de bord
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quel-est-lobjectif-principal-de-cette-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quel est l'objectif principal de cette page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apercu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aperçu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definir-votre-periode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Définir votre période
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyse-des-statistiques-generales-dans-les-premieres-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Analyse des statistiques générales dans les premières cases
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Analyse des statistiques générales dans les premières cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#premiere-vue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Première vue
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informations-fournies-dans-ces-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informations fournies dans ces cases
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigation-entre-les-differents-onglets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation entre les différents onglets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statistiques-des-factures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statistiques des factures
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Statistiques des factures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tableau-des-documents-en-attente-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableau des documents en attente de validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tableau des documents en attente de validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apercu_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aperçu
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tableau-des-documents-valides" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableau des documents validés
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tableau des documents validés">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apercu_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aperçu
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duree-moyenne-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Durée moyenne de validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Durée moyenne de validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apercu_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aperçu
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation-dans-lhistogramme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation dans l’histogramme
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistiques-des-modeles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statistiques des modèles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Statistiques des modèles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apercu_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aperçu
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation-dans-cette-sous-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation dans cette sous-page
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statistiques-du-systeme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statistiques du système
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Statistiques du système">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#navigation-dans-les-visualisations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation dans les visualisations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#liste-de-taches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Liste de tâches
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Liste de tâches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apercu_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aperçu
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-interagir-directement-avec-une-ou-plusieurs-validations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comment interagir directement avec une ou plusieurs validations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Template.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modèle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Validations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Tools.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Outils
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Users.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Utilisateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Settings.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Paramètres
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Peppol
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Peppol
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Peppol/Introduction.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Peppol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Peppol/Prerequisites.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conditions préalables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Peppol/Documentation_with_Peppol.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documentation avec Peppol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Peppol/Tools_with_Peppol.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Outils avec Peppol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Système multi-organisationnel
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Système multi-organisationnel
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Multi%20tenant%20system/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Système multi-organisationnel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Multi%20tenant%20system/Setting%20up%20the%20system.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuration du système
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FAQ.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><span class="version-label"><em>Version: v1.0</em></span></p>
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/System Overview-Dashboard.pdf" target="_blank">
+    Télécharger cette section au format PDF
+  </a>
+</div>
+
+<h1 id="tableau-de-bord">Tableau de bord</h1>
+<h2 id="quel-est-lobjectif-principal-de-cette-page">Quel est l'objectif principal de cette page</h2>
+<p>Dans cette page de tableau de bord, vous trouverez de nombreux tableaux et statistiques utiles
+qui vous aideront à organiser et à avoir une vue d'ensemble de votre travail.</p>
+<p>Si vous êtes un super utilisateur ou une personne disposant de droits
+pour observer tous les utilisateurs et documents de votre entreprise, vous aurez également
+des visualisations et tableaux supplémentaires à votre disposition pour analyser
+la performance des utilisateurs et les flux de trésorerie futurs.</p>
+<p>Dans les paragraphes suivants, vous trouverez tous les différents tableaux et
+visualisations disponibles.</p>
+<h2 id="apercu">Aperçu</h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/Dashboard_overview.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Dashboard/Dashboard_overview.png" width="1000"></a></p>
+<h2 id="definir-votre-periode">Définir votre période</h2>
+<p>Avant de réaliser une analyse ou d’interagir avec le tableau de bord, il est
+essentiel de définir d’abord la période dans le tableau de bord. La
+période sélectionnée détermine quels documents seront inclus dans tous
+les tableaux et visualisations disponibles.</p>
+<p>Pour modifier la période, cliquez sur la zone de texte de la période actuelle
+située en haut de l’écran et ajustez-la selon vos préférences. Pour plus
+d’informations sur la modification de la période, veuillez consulter le <a href="Validations.html#modification-de-la-période">(lien suivant)</a>,
+qui vous dirigera vers la section pertinente de ce manuel où le sous-menu
+de la période est expliqué en détail.</p>
+<h2 id="analyse-des-statistiques-generales-dans-les-premieres-cases">Analyse des statistiques générales dans les premières cases</h2>
+<p>Un des premiers éléments que vous remarquerez sur la page du tableau de bord
+est quatre cases affichant des informations statistiques générales sur votre système.</p>
+<h4 id="premiere-vue">Première vue</h4>
+<p>Pour aider à identifier les cases référencées, un exemple visuel de leur apparence
+dans votre système est fourni ci-dessous.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/Dashboard_main_boxes.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Dashboard/Dashboard_main_boxes.png" width="1000"></a></p>
+<h4 id="informations-fournies-dans-ces-cases">Informations fournies dans ces cases</h4>
+<p>Ces cases contiennent des informations générales conçues pour vous aider à
+évaluer rapidement l’état actuel du système. Cela peut fournir des informations
+utiles et vous aider à prioriser vos tâches ou opérations de l’entreprise.</p>
+<h2 id="navigation-entre-les-differents-onglets">Navigation entre les différents onglets</h2>
+<p>Sur la page du tableau de bord, toutes les fonctionnalités sont divisées en sous-pages.
+Vous pouvez naviguer entre ces pages en changeant d’onglet en haut de l’écran.</p>
+<p>Voici un exemple de l’apparence de ces onglets :</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/Tabs_navigation.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Dashboard/Tabs_navigation.png" width="300"></a></p>
+<p>Les sections suivantes expliquent les fonctionnalités disponibles sur chacune de ces pages.</p>
+<h2 id="statistiques-des-factures">Statistiques des factures</h2>
+<p>Cette sous-page du tableau de bord affiche des informations statistiques liées
+aux documents émis pendant la période sélectionnée.</p>
+<div class="admonition warning">
+<p class="admonition-title">Information importante</p>
+<p>Avant d’analyser les documents présents dans le système, veuillez noter que
+si vous n’avez pas l’autorisation de voir les validations des autres,
+vous ne verrez que les documents que vous avez émis.</p>
+</div>
+<p>Nous allons maintenant passer en revue chaque visualisation disponible sur cette sous-page.</p>
+<h3 id="tableau-des-documents-en-attente-de-validation">Tableau des documents en attente de validation</h3>
+<h4 id="apercu_1">Aperçu</h4>
+<p>Ce tableau affiche tous les documents actuellement en attente de validation
+dans votre système. Il montre la personne à qui chaque document est attribué,
+ainsi que des informations détaillées sur le nombre et la valeur des documents
+dont chaque individu est responsable.</p>
+<p>Voici un exemple de l’apparence de ce tableau :</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/Pending_documents_releases_table.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Dashboard/Pending_documents_releases_table.png" width="1000"></a></p>
+<h3 id="tableau-des-documents-valides">Tableau des documents validés</h3>
+<h4 id="apercu_2">Aperçu</h4>
+<p>Ce tableau affiche tous les documents déjà validés dans votre système.
+Chaque entrée inclut la personne à qui le document est attribué, ainsi que
+diverses statistiques, telles que le nombre et la valeur des documents
+validés par individu. De plus, tous les documents validés sans personne
+assignée seront représentés dans une ligne distincte (appelée également
+<code>"Documents non assignés"</code>).</p>
+<p>Voici un exemple de l’apparence du tableau :</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/Released_documents_table.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Dashboard/Released_documents_table.png" width="1000"></a></p>
+<h3 id="duree-moyenne-de-validation">Durée moyenne de validation</h3>
+<h4 id="apercu_3">Aperçu</h4>
+<p>Cet histogramme montre le temps moyen que chaque personne prend pour valider
+les documents qui lui sont assignés.</p>
+<p>Pour mieux comprendre, voici un exemple de visualisation :</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/Average_release_durations.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Dashboard/Average_release_durations.png" width="1000"></a></p>
+<h4 id="navigation-dans-lhistogramme">Navigation dans l’histogramme</h4>
+<p>Chaque ligne représente un membre de l’équipe avec le temps moyen de validation
+pour cet individu. Selon la couleur de la case, la moyenne affichée peut se référer à :</p>
+<ul>
+<li>La durée moyenne pendant la période définie, ou</li>
+<li>La durée moyenne totale sur l’ensemble de ses documents.</li>
+</ul>
+<p>Pour passer entre les documents <strong>entrants</strong> et <strong>sortants</strong>, utilisez les onglets
+en haut de l’histogramme.</p>
+<p>Pour masquer une catégorie (<code>"Dans la période"</code> ou <code>"Total"</code>), cliquez simplement
+sur le label de la catégorie en haut de l’histogramme.</p>
+<h3 id="statistiques-des-modeles">Statistiques des modèles</h3>
+<h4 id="apercu_4">Aperçu</h4>
+<p>Cette sous-section vous permet de visualiser la performance de chaque modèle
+utilisé pendant la période sélectionnée.</p>
+<div class="admonition warning">
+<p class="admonition-title">Information importante</p>
+<p>Veuillez noter que si vous n’avez pas les permissions nécessaires pour
+créer ou modifier des modèles, cette page apparaîtra vide.</p>
+</div>
+<p>Voici un exemple de l’apparence de cette page :</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/Template_Statistics.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Dashboard/Template_Statistics.png" width="750"></a></p>
+<h4 id="navigation-dans-cette-sous-page">Navigation dans cette sous-page</h4>
+<p>Chaque modèle utilisé pendant la période définie est affiché comme une tuile
+individuelle. Dans chaque tuile, vous trouverez les métriques de précision
+d’extraction pour chaque champ associé à ce modèle.</p>
+<p>Si vous souhaitez modifier un modèle spécifique, vous pouvez le faire directement
+en cliquant sur l’icône d’édition située en haut à droite de la tuile.
+L’icône d’édition apparaît comme suit :</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/Edit_template.png" data-desc-position="bottom"><img align="center" alt="image" src="../img/Screenshots/Dashboard/Edit_template.png" width="60"></a></p>
+<h2 id="statistiques-du-systeme">Statistiques du système</h2>
+<p>Cette sous-page fournit un aperçu des informations statistiques liées à la
+performance globale du système pendant la période sélectionnée.</p>
+<div class="admonition warning">
+<p class="admonition-title">Information importante</p>
+<p>Étant donné qu’aucune information sensible n’est présentée dans ces visualisations,
+tous les utilisateurs ont un accès complet à cette sous-page.</p>
+</div>
+<p>Voici un exemple de mise en page de cette page :</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/System_statistics_overview.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Dashboard/System_statistics_overview.png" width="1000"></a></p>
+<h3 id="navigation-dans-les-visualisations">Navigation dans les visualisations</h3>
+<p>En faisant défiler cette page, vous rencontrerez différents histogrammes
+et autres types de représentations visuelles. Les fonctionnalités d’interaction
+suivantes sont disponibles :</p>
+<ul>
+<li>
+<p>Pour voir des valeurs spécifiques ou des informations supplémentaires pour un point
+  de données particulier dans une visualisation, survolez-le avec la souris.
+  Une infobulle apparaîtra avec des détails.</p>
+</li>
+<li>
+<p>Certaines visualisations offrent des onglets de paramètres permettant de filtrer
+  ou d’ajuster les données affichées. Pour changer les paramètres, passez
+  entre les onglets disponibles.</p>
+</li>
+</ul>
+<h2 id="liste-de-taches">Liste de tâches</h2>
+<h3 id="apercu_5">Aperçu</h3>
+<p>Dans cette liste, nous visualiserons les différentes validations actuellement
+assignées à vous et qui doivent être traitées par vous.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Veuillez noter que toutes les validations affichées dans la liste de tâches
+apparaissent uniquement en fonction de la période sélectionnée.</p>
+</div>
+<p>La liste de tâches se trouve au début du tableau de bord et devrait ressembler à ceci :</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Dashboard/To-do_list_overview.png" data-desc-position="bottom"><img alt="Image" src="../img/Screenshots/Dashboard/To-do_list_overview.png" width="800"></a></p>
+<h3 id="comment-interagir-directement-avec-une-ou-plusieurs-validations">Comment interagir directement avec une ou plusieurs validations</h3>
+<p>Pour visualiser directement une validation, cliquez simplement sur le bouton
+de visualisation de la validation correspondante.</p>
+<p>De plus, si vous souhaitez visualiser plusieurs validations en même temps,
+vous pouvez sélectionner toutes les validations souhaitées dans le tableau
+et cliquer sur le bouton de visualisation d’une des validations pour ouvrir
+toutes les validations dans le système.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  <div class="md-footer__inner md-grid">
+    <div class="md-footer__col">
+      <p>© 2025 Extractional</p>
+    </div>
+    <div class="md-footer__col" style="text-align:right;">
+        <a href="https://extractional.com" class="footer-link">
+            <img src="../../img/icon_transparent.png" alt="Logo" height="30">
+            <span>Main website</span>
+        </a>
+        <a href="https://www.youtube.com/@Extractional" class="footer-link">
+            <img src="../../img/Icons_and_more/youtube_logo.png" alt="YouTube" height="30">
+            <span>For all visual tutorials</span>
+        </a>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

@@ -1,0 +1,1629 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="Template.html">
+      
+      
+        <link rel="next" href="Tools.html">
+      
+      
+      <link rel="icon" href="../assets/icon_transparent.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Validations - Extractional Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#validation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="Extractional Documentation" class="md-header__button md-logo" aria-label="Extractional Documentation" data-md-component="logo">
+      
+  <img src="../assets/icon_transparent.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Extractional Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Validations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="cyan" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="cyan" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="Validations.html" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../fr/System%20Overview/Validations.html" hreflang="fr" class="md-select__link">
+              French
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../de/System%20Overview/Validations.html" hreflang="de" class="md-select__link">
+              German
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../System%20Overview%20and%20User%20Management.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="index.html" class="md-tabs__link">
+          
+  
+  
+  System Overview
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Peppol/Introduction.html" class="md-tabs__link">
+          
+  
+  
+  Peppol
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Multi%20tenant%20system/index.html" class="md-tabs__link">
+          
+  
+  
+  Multi tenant system
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FAQ.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Extractional Documentation" class="md-nav__button md-logo" aria-label="Extractional Documentation" data-md-component="logo">
+      
+  <img src="../assets/icon_transparent.png" alt="logo">
+
+    </a>
+    Extractional Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../System%20Overview%20and%20User%20Management.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    System Overview
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            System Overview
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    System Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Dashboard.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dashboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Template.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Validations
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="Validations.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validations
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-main-purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is the main purpose
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-does-the-extractional-algorithm-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How does the Extractional algorithm work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-functionalities-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Main Functionalities Overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Main Functionalities Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-new-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a new validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a new validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reading-from-an-e-mail-inbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reading from an e-mail inbox
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manual-insertion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manual insertion
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#releasing-a-document" class="md-nav__link">
+    <span class="md-ellipsis">
+      Releasing a document
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Releasing a document">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-does-releasing-one-document-in-the-context-of-our-system-mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      What does releasing one document in the context of our system mean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-release-a-document-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to release a document step-by-step
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secondary-functionalities-and-useful-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secondary Functionalities and useful Tips
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Secondary Functionalities and useful Tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#filtering-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtering function
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-timetable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing timetable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage-of-search-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage of search bar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage of search bar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-the-search-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to use the search bar
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linking-people-to-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linking people to documents
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exporting-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exporting Documents
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exporting Documents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exporting-a-single-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exporting a single file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exporting-te-entirety-of-the-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exporting te entirety of the table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#improvement-of-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Improvement of Workflow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Improvement of Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage-of-flags" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage of Flags
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage of Flags">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-take-advantage-of-flags" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to take advantage of flags
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quickly-review-several-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quickly review several documents
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Tools.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Users.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Users
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Settings.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Peppol
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Peppol
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Peppol/Introduction.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Peppol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Peppol/Prerequisites.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Prerequisites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Peppol/Documentation_with_Peppol.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documentation with Peppol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Peppol/Tools_with_Peppol.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tools with Peppol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Multi tenant system
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Multi tenant system
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Multi%20tenant%20system/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multi tenant system
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Multi%20tenant%20system/Setting%20up%20the%20system.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setting up the system
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FAQ.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><span class="version-label"><em>Version: v1.0</em></span></p>
+<div class="no-pdf">
+  <a class="md-button print-button" href="../pdfs/System Overview-Validations.pdf" target="_blank">
+    Get this section in PDF
+  </a>
+</div>
+
+<h1 id="validation">Validation</h1>
+<h2 id="what-is-the-main-purpose">What is the main purpose</h2>
+<p>In this page, you can see all the different documents that have entered
+that system and that need validation from an individual before being
+accepted into the system. All documents that have been validated are
+also seen and reviewed on this page.</p>
+<p>All documents can automatically enter the system via a connection with a
+dedicated e-mail address, or you can also manually add a document to the
+system by entering it.</p>
+<p>Additionally, all the documents are separated from the ones that are
+incoming and outgoing respectively to the company.</p>
+<h2 id="how-does-the-extractional-algorithm-work">How does the Extractional algorithm work</h2>
+<p>The Extractional algorithm will search for a suitable template and then
+start to extract the values according to this template. It fields are
+not recognized, they stay empty, and you will have the possibility to
+fill them manually (unless it has been defined as non-type-in field).</p>
+<p>In addition, if the system does not find any corresponding templates, it
+will not extract any data and let all fields empty. A red visual icon
+will be present on the respective validation.</p>
+<p>Moreover, if the system finds two different templates for the same
+document, it will simply be the first one.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>There are a few prerequisites that we recommend before starting to
+create and validate the system.</p>
+<p>The first thing that shall be already defined in the system is having
+created all the desired templates, since otherwise the user cannot
+profit from the advantages of Extractional.</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>In addition, we also highly recommend defining all roles before allowing
+validation in the system. This will allow you to control who are the
+people who shall have the control to validate documents in your
+system/company.</p>
+</div>
+<h2 id="overview">Overview</h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/Overview.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/Overview.png" width="1000"></a></p>
+<div class="no-pdf">
+
+<h2>Video tutorials</h2>
+
+<h3>Mastering validations</h3>
+
+<div class="responsive-video">
+
+<iframe src="https://www.youtube.com/embed/PiAbmcPj8pI?si=a9wZEGUaj3iRwUvl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<h3>Exporting validations</h3>
+
+<div class="responsive-video">
+
+<iframe src="https://www.youtube.com/embed/IDB6tKfnY3Q?si=xF9aIbBbNV7dakTC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+<h2 id="main-functionalities-overview">Main Functionalities Overview</h2>
+<h3 id="creating-a-new-validation">Creating a new validation</h3>
+<p>In this part, we will explain how a validation can be created.
+Additionally, we highly recommend having a dedicated e-mail directly
+connected to the system, since this will save your company a considerate
+amount of time.</p>
+<h4 id="reading-from-an-e-mail-inbox">Reading from an e-mail inbox</h4>
+<p>Automation via email is set on the settings page; if you want more
+information about this feature, please click the following
+<a href="Settings.html#imap-monitoring">link</a>.</p>
+<h4 id="manual-insertion">Manual insertion</h4>
+<p>In this part, you shall find a step-by-step guide on how to manually
+insert a new validation in the system.</p>
+<p><strong>The first step</strong> will be to trigger the system to know that you want
+to add a new validation. This can be easily done by clicking on the new
+validation button. This button can be seen on the bottom left corner of
+the Validation page.</p>
+<p>Once you have clicked the new validation button, you should be presented
+with a new page that should look like this:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/New_validation_page.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/New_validation_page.png" width="1000"></a></p>
+<p><strong>The second step</strong> will then be to select the file that you want to
+upload to the system. This can be easily done by clicking the
+<code>Browse\...</code> button and using your operating system's file-selection
+dialog to choose the file.</p>
+<p>After having chosen the desired file to upload, you shall only upload
+the file into the system, this by clicking the \"upload\" button. Once
+you have clicked this button, the system will look something like this:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/File_uploaded.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/File_uploaded.png" width="1000"></a></p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p><strong>The third and final step</strong> will be to verify all the entries in the
+Data Collection section of the page. Here we have a few recommendations
+that you should take into account. The first would be to add any notes
+that might be helpful for the others in the future. Another would be to
+complete and verify all the respective fields; usually most of the
+validations that will be created will automatically have all the values
+already assigned to it due to automation made with the templates in the
+system, but we always recommend checking all the fields to possibly
+filling or correcting some of the values.</p>
+</div>
+<p>Once you have achieved to do all the different steps, you will have two
+choices, you can either save the current entry or you could release it.
+Please, pay attention that to release one validation you need to have
+the rights to do it.</p>
+<p>To save the validation, you will need to click on the \"Save values\"
+button, which can be seen in the bottom left corner of the Data
+collection window.</p>
+<p>Additionally, to go back to the main validation page, you only need to
+click on the \"back\" button found in the bottom left corner of the
+page.</p>
+<h3 id="releasing-a-document">Releasing a document</h3>
+<h4 id="what-does-releasing-one-document-in-the-context-of-our-system-mean">What does releasing one document in the context of our system mean</h4>
+<p>In the context of our system, the release of a document is the process
+of accepting a document into the overall system and shall be treated as
+a <strong>validated</strong> document after it is released.</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>Be aware that to release a document, you will need to have the rights to
+do it.</p>
+</div>
+<h4 id="how-to-release-a-document-step-by-step">How to release a document step-by-step</h4>
+<p>In the following paragraphs, you will find a step-by-step guide on how
+to properly release a document.</p>
+<p>The first step in this process will be to open a new validation that is
+still not released, if you still need to create this new validation,
+please go back to the <a href="#creating-a-new-validation"><code>Creating a new validation
+chapter</code></a> that shows how to create a new
+validation. In addition, to open an existing validation, you will need
+to click on the view icon on the desired validation. The visualization
+icon can be seen as such:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/View_validation_icon.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/View_validation_icon.png" width="50"></a></p>
+<p><strong>The second and most important step</strong> in this process is to verify all
+the entries in the Data Collection window. If you wish to change any
+values in the Data Collection part, you will need to click on the
+desired field first and change the value by right-clicking the correct
+value on the file or you can also manually type the correct value.</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>You will only be able to correct the values if the field is set to allow manual changes. For more information, please consult the <a href="Settings.html#analysis-fields"><code>Settings page</code></a></p>
+</div>
+<p>Once you have finished verifying all the data from the data collection
+window, you can decide whether you want to release the document or not.</p>
+<p>If you wish to release the document, it is as simple as clicking the
+Release button at the bottom of the Data Collection window followed by
+choosing to accept the release. To help you find this sequence of
+buttons, you can use the following illustration to help you:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/Release_accepted.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/Release_accepted.png" width="250"></a></p>
+<p>Once you have released the document, a pop-up page will appear that will
+notify you if the operation has been successful or not.</p>
+<p>On the other hand, if you would like to refuse the release of the
+current validation, you can simply click on the Release button on the
+bottom of the Data Collection window followed by choosing to reject the
+release. To help you find this sequence of buttons, you can use the
+following illustration to help you:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/Release_refused.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/Release_refused.png" width="250"></a></p>
+<!-- MARKER -->
+<p>If you reject a validation, a pop-up page will
+appear to either write a simple note explaining the reason behind
+refusing the document or it could also prepare the e-mail the shall be
+sent to the incoming person that has send this document to your email.
+This, of course, depends on how validation has been created as well as
+how the system has been defined.</p>
+<p>Once you have finished Releasing a document, you can always go back to
+the main Validation page by clicking on the \"back\" page on the bottom
+left corner of the page.</p>
+<h2 id="secondary-functionalities-and-useful-tips">Secondary Functionalities and useful Tips</h2>
+<p>In this section, we will show all the secondary functionalities; these
+however are as important as the main ones since these ones will
+considerably improve your workflow during the day.</p>
+<h3 id="filtering-function">Filtering function</h3>
+<p>Filtering can be helpful when trying to search for a specific
+document in your system or want to only treat a subgroup of all
+validations in your system.</p>
+<p>To trigger this filter menu, you need to click on the \"Filter\" text
+that is visible on the main Validation page. After having clicked on the
+Filter button, your system shall look like this:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/Filter_page.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/Filter_page.png" width="1000"></a></p>
+<p>Now that you have opened the filter menu or can choose what to filter
+all the criteria as you would like as well as how the should be
+combined. You have two options on how to combine the filters, you can
+either choose the <strong>"and"</strong> or the <strong>"or"</strong> option in the combine
+filters with box.</p>
+<p>Moreover, if you wish to remove all the filters, you can click on the
+<code>Reset</code> text field that is situated right next to the <code>Filter</code> text
+field and all the filters will reset to their default settings.</p>
+<h3 id="changing-timetable">Changing timetable</h3>
+<p>One of the secondary systems on this page is also to define the time period
+of all the documents you wish to visualize. The tme period defines what documents
+are shown in the validation table. Additionally, the date referred in this context is the date
+regarding the <strong>entry of the document in the system</strong>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>The time table is always considered additionally to filters and full te-text search.
+If a document does not fall into the selected time period, it can never be found,
+independently of filters or search criteria.</p>
+</div>
+<p>This time period can be defined
+by simply clicking the date icon on the top right corner of the system,
+and you will be shown the following window to change the dates:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/TimeTable_menu.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/TimeTable_menu.png" width="750"></a></p>
+<p>From here, you will be able to choose a new time period. You have two
+possibilities on how to change the time period, the first one is by
+choosing one of the options that is available on the left side of the
+window (example: <code>Last 7 Days</code>). The other possibility is to
+define a custom time period, this can be done by choosing the starting day
+on the time period and left-click with your mouse and then choosing the
+starting day end day of your time period and left-click with your mouse
+again.</p>
+<p>Once you are satisfied with your time period, you can click on the
+<code>Apply</code> button in the bottom right corner of this window.</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>Please be aware that the loading time can take some time, especially if
+there are a lot of files that need to be loaded into the system.</p>
+</div>
+<h3 id="usage-of-search-bar">Usage of search bar</h3>
+<p>If you would like to quickly find a specific file, you can always take
+usage of the search bar.</p>
+<h4 id="how-to-use-the-search-bar">How to use the search bar</h4>
+<p>To use the search bar, you will need to write some information of the
+file that you are looking for in the text box that is next to the
+<code>Search</code> text field.</p>
+<p>Once you have entered some text in the text bar, teh system will perfom a search for all files contained in the current table.
+The system will look for elements where it can find the entirity of the information given.</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>The only fields that are available for searching are those that have been set to <em>"activated"</em> or <em>"hidden"</em>. </p>
+</div>
+<p>Once you have entered some text in the text bar, the system will look
+for any file that will containing some meta-information equal to the one
+you have just entered.</p>
+<p>Please pay attention that the system will only look within all
+meta-information. In other words, all the information that can be seen
+from each in the main validation page.</p>
+<h3 id="linking-people-to-documents">Linking people to documents</h3>
+<p>In these part you will learn how to assign a certain validation for a
+user that is inside your system. This can be helpful if you would like
+to assign someone to release a specific document or want to specify the
+person that is responsible for that specific document.</p>
+<p>To do so, you first need to click on the respective icon that is shown
+below:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/Link_Icon.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/Link_Icon.png" width="75"></a></p>
+<p>Once you have clicked on that icon, a new window will pop out and you
+will be able to link someone to the chosen validation.</p>
+<h3 id="exporting-documents">Exporting Documents</h3>
+<p>In this part, we will discuss how to export documents in a chosen
+format.</p>
+<p>There are two main ways to export documents, you have the possibility to export a single
+document or you can also export the entirety of the current table that is represented.</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>Be aware that all documents that you would like to export must be
+released, and if you choose to export in CSV or XML format, the format
+must also be defined in the settings. More information about exporting
+formats in the following link (STILL TO DO).</p>
+</div>
+<h4 id="exporting-a-single-file">Exporting a single file</h4>
+<p>To export a single document, you will start by viewing the file that you would like to export.</p>
+<p>The exporting section can then be found at the bottom of the data collection window. The section shall look like this:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/Exporting_single_file.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/Exporting_single_file.png" width="width"></a></p>
+<p>In this section of the page, you will be able to define the export format that you would like to perform and click on the submit button.</p>
+<h4 id="exporting-te-entirety-of-the-table">Exporting te entirety of the table</h4>
+<p>To export several files at once you shall start by filtering your validations table to only represent the validations that you would like to export.</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>Please be aware that this manipulation will export all validations visible in the <strong>entire table</strong>-</p>
+</div>
+<p>In order to export all documents available in the table, you need to click on the <code>Export Selection</code> button found at the bottom of the page.
+You will be presented with a new window where you need to choose the export format and confirm your choice by clicking on the <code>Ok</code> button. </p>
+<p>All teh files will be then exported a compressed .zip folder.</p>
+<h2 id="improvement-of-workflow">Improvement of Workflow</h2>
+<p>In this part, we will talk about to main points featured in our system
+that will allow you to improve your workflows.</p>
+<h3 id="usage-of-flags">Usage of Flags</h3>
+<p>Our system uses flags allowing us to define the state of a certain
+validation. All flags have an associated icon and will be visible in each
+validation under the supplier box in the document itself. Here is an
+example of a validation already with two flags associated with it.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/Document_with_flags.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/Document_with_flags.png" width="500"></a></p>
+<h4 id="how-to-take-advantage-of-flags">How to take advantage of flags</h4>
+<p>Flags allow every user to quickly understand the state of an existing validation.
+They can also help you understand if a certain task has already been done in a validation.</p>
+<p>Typical flags in the system are:</p>
+<ul>
+<li><code>Paid</code></li>
+<li><code>Reviewed</code></li>
+<li><code>Paid</code></li>
+<li><code>etc.</code></li>
+</ul>
+<h3 id="quickly-review-several-documents">Quickly review several documents</h3>
+<p>In addition, our system also has a method implemented allowing to select
+several documents to quickly review them. This, again will
+allow you to improve the efficiency of your workflow.</p>
+<p>To use this feature, you will select all the documents that you would
+like to review followed by clicking on
+the visualization button on one of the files. The visualization button
+is represented by the following icon:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/View_validation_icon.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/View_validation_icon.png" width="75"></a></p>
+<p>After clicking on the view button you will be then transferred to the
+view page as if it was for only one document, but this time, you will
+have all the several files represented on the top as if they were tabs
+in a browser. To help you visualize where you can select each document,
+you can use the following visualization to help guiding you.</p>
+<p>In addition, each tab's color also represents the document's state with the same colors as in the validations table.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/Screenshots/Validation/Several_file_tabs.png" data-desc-position="bottom"><img alt="image" src="../img/Screenshots/Validation/Several_file_tabs.png" width="750"></a></p>
+<p>Now you can quickly review all the desired files without needing to
+always go back to the main page.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  <div class="md-footer__inner md-grid">
+    <div class="md-footer__col">
+      <p>© 2025 Extractional</p>
+    </div>
+    <div class="md-footer__col" style="text-align:right;">
+        <a href="https://extractional.com" class="footer-link">
+            <img src="../img/icon_transparent.png" alt="Logo" height="30">
+            <span>Main website</span>
+        </a>
+        <a href="https://www.youtube.com/@Extractional" class="footer-link">
+            <img src="../img/Icons_and_more/youtube_logo.png" alt="YouTube" height="30">
+            <span>For all visual tutorials</span>
+        </a>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
